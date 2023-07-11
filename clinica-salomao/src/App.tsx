@@ -5,6 +5,9 @@ import Oito from './components/Oito/Oito'
 import Tres from './components/Tres/Tres'
 import Tranquila from './components/Tranquila/Tranquila'
 import Metodo from './components/Metodo/Metodo'
+import Processos from './components/Processos/Processos'
+import Avaliacao from './components/Avaliacao/Avaliacao'
+import Equipe from './components/Equipe/Equipe'
 
 function App() {
 
@@ -16,6 +19,9 @@ function App() {
     <Tres />
     <Tranquila />
     <Metodo />
+    <Processos />
+    <Avaliacao />
+    <Equipe />
    </>
   )
 }
