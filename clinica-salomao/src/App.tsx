@@ -8,7 +8,7 @@ import Metodo from './components/Metodo/Metodo'
 import Processos from './components/Processos/Processos'
 import Avaliacao from './components/Avaliacao/Avaliacao'
 import Equipe from './components/Equipe/Equipe'
-
+import Depoimento from './components/Depoimento.tsx/Depoimento'
 function App() {
 
   return (
@@ -22,6 +22,7 @@ function App() {
     <Processos />
     <Avaliacao />
     <Equipe />
+    <Depoimento />
    </>
   )
 }
