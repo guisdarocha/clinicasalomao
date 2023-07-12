@@ -1,9 +1,9 @@
-
+import whats from '../../assets/whats.svg'
 
 const Perguntas = () => {
     return (
     <>
-    <div className="cointener">
+    <div className="container">
         <h3>perguntas frequentes</h3>
             <div>
                 <div className="pergunta">
@@ -15,52 +15,60 @@ const Perguntas = () => {
             </div>
             <div>
                 <div className="pergunta">
-                    <p></p>
+                    <p>Após procedimento o que devo ter de cuidados ?</p>
                 </div>
                 <div className="resposta">
-                    <p></p>
+                    <p>Cada procedimento tem sua orientação. Mas pode ficar tranquila, rotina normal com alguns 
+                    cuidados específicos de cada protocolo</p>
                 </div>
             </div>
             <div>
                 <div className="pergunta">
-                    <p></p>
+                    <p>Posso fazer mais de um procedimento no mesmo dia?</p>
                 </div>
                 <div className="resposta">
-                    <p></p>
+                    <p>Sim, porém tem protocolos que precisam de um intervalo entre eles para que sejam realizados</p>
                 </div>
             </div>
             <div>
                 <div className="pergunta">
-                    <p></p>
+                    <p>É feito com anestesia?</p>
                 </div>
                 <div className="resposta">
-                    <p></p>
+                    <p>Sim , nossos procedimentos são com anestesia tópica ou injetável, depende do protocolo</p>
                 </div>
             </div>
             <div>
                 <div className="pergunta">
-                    <p></p>
+                    <p>Tem contraindicação?</p>
                 </div>
                 <div className="resposta">
-                    <p></p>
+                    <p>Sim, principalmente lactantes e grávidas. É feito uma anamnese antes do seu procedimento 
+                    para entender um pouco da sua saúde e dar continuidade ao seu protocolo com toda segurança</p>
                 </div>
             </div>
             <div>
                 <div className="pergunta">
-                    <p></p>
+                    <p>Resultado é imediato?</p>
                 </div>
                 <div className="resposta">
-                    <p></p>
+                    <p>Alguns procedimentos sim, outros ao longo dos dias. Cada protocolo tem sua função 
+                    e importância no seu tratamento</p>
                 </div>
             </div>
             <div>
                 <div className="pergunta">
-                    <p></p>
+                    <p>Esses procedimentos são compatíveis com o organismo?</p>
                 </div>
                 <div className="resposta">
-                    <p></p>
+                    <p>São compatíveis e absorvidos pelo organismo. Melhor tecnologia que temos hoje na Estética é 
+                    usada na Salomão sempre pensando na sua segurança</p>
                 </div>
             </div>
+        <button className='whatsapp'>
+            <img src={whats} alt=""/>
+        <span>Quero iniciar agora meu tratamento</span>
+    </button>
     </div>
     </>
     )

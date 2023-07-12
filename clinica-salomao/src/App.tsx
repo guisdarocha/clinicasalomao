@@ -9,6 +9,12 @@ import Processos from './components/Processos/Processos'
 import Avaliacao from './components/Avaliacao/Avaliacao'
 import Equipe from './components/Equipe/Equipe'
 import Depoimento from './components/Depoimento.tsx/Depoimento'
+import Perguntas from './components/Perguntas/Perguntas'
+import Footer from './components/Footer/Footer'
+
+
+
+
 function App() {
 
   return (
@@ -23,6 +29,8 @@ function App() {
     <Avaliacao />
     <Equipe />
     <Depoimento />
+    <Perguntas />
+    <Footer />
    </>
   )
 }
