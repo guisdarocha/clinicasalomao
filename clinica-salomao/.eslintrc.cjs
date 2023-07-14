@@ -25,4 +25,5 @@ module.exports = {
     '@typescript-eslint/no-non-null-assertion': 'off',
     "@typescript-eslint/no-unsafe-assignment": "error",
   },
+  "include": ["src/**/*.ts"]
 }

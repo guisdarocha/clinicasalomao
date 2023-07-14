@@ -5,6 +5,7 @@ import imagemHeader from '../../assets/headerImage.png'
 const Header = () => {
     return (
     <>
+    <div className="bg-red-500">
         <div className="logo">
             <img src={logo} alt="" />
         </div>
@@ -20,6 +21,7 @@ const Header = () => {
         <div className="explicacao">
             <h3>Tratamentos que estimulam colágeno de forma natural e muito segura, proporcionando um resultado maravilhoso devolvendo sua autoestima com segurança</h3>
         </div>
+    </div>
     </>
     )
 }
