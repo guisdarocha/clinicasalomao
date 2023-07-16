@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        belleza: ['Belezza', 'regular']
+        belleza: ['Belezza']
       },
     },
     colors: {

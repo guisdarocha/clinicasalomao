@@ -4,18 +4,21 @@ import whats from '../../assets/whats.svg'
 const Mapa = () => {
     return (
     <>
-    <div className='bg-creme pt-[5rem]'>
-        <div>
-            <img src={brasil} alt="" />
-            <div className="texto">
-                <h3>Você sabia que o Brasil é referência MUNDIAL em Estética?</h3>
-                <h4>Isso mesmo, é daqui que saem os protocolos com os melhores profissionais e produtos.</h4>
+    <div className=' bg-creme pt-[10rem] '>
+        <div className='flex justify-center'>
+            <img src={brasil} alt="" className='flex' />
+            <div className="grid self-center -ml-[3rem] w-[28rem] h-[289px]">
+                <h3 className='text-[2.25rem] text-vermelho-madeira font-belleza leading-tight uppercase'>Você sabia que o Brasil é referência MUNDIAL em Estética?</h3>
+                <h4 className='text-[2.25rem] pt-[55px] text-vermelho-madeira font-belleza leading-tight'>Isso mesmo, é daqui que saem os protocolos com os melhores profissionais e produtos.</h4>
             </div>
          </div>
-        <button className='whatsapp'>
-            <img src={whats} alt=""/>
-            <span>Quero tratar minha flacidez</span>
-        </button>
+
+         <div className='grid justify-items-center'>
+            <button className='flex '>
+                <span className='self-center'>Quero tratar minha flacidez</span>
+                <img src={whats} alt=""/>
+            </button>
+         </div>
     </div>
     </>
     )
