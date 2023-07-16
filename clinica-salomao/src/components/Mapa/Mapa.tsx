@@ -4,7 +4,7 @@ import whats from '../../assets/whats.svg'
 const Mapa = () => {
     return (
     <>
-    <div className=' bg-creme pt-[10rem] '>
+    <div className='aling-center bg-creme h-[800px] pt-[10rem] '>
         <div className='flex justify-center'>
             <img src={brasil} alt="" className='flex' />
             <div className="grid self-center -ml-[3rem] w-[28rem] h-[289px]">
@@ -13,10 +13,10 @@ const Mapa = () => {
             </div>
          </div>
 
-         <div className='grid justify-items-center'>
-            <button className='flex '>
-                <span className='self-center'>Quero tratar minha flacidez</span>
-                <img src={whats} alt=""/>
+         <div className='flex justify-center items-center pt-[5rem] '>
+            <button className='flex bg-gradient-to-r from-whats-escuro via-whats to-whats-escuro border-4 border-branco cursor-pointer px-[4rem] py-[2rem] rounded-[8rem]'>
+                <span className='text-[3rem] font-belleza drop-shadow-lg text-branco uppercase'>Quero tratar minha flacidez</span>
+                <img src={whats} alt="" className='animate-bounce pl-[1rem] self-center '/>
             </button>
          </div>
     </div>
