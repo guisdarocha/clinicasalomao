@@ -3,7 +3,7 @@ import whats from '../../assets/whats.svg'
 const Oito = () => {
     return (
     <>
-    <div className="perguntas">
+    <div className="flex bg-creme-escuro pt-[10rem]">
         <div className="caixa">
             <h4>Você sente seu rosto derreter?</h4>
         </div>
@@ -29,10 +29,12 @@ const Oito = () => {
             <h4>Quantos anos você quer rejuvenescer sem precisar de uma cirurgia, já pensou nisso ?</h4>
         </div>
     </div>
-    <button className='whatsapp'>
-        <img src={whats} alt=""/>
-        <span>Não sofra com nada disso. Não perca mais tempo</span>
-    </button>
+        <div className='flex justify-center items-center pt-[5rem] '>
+            <button className='flex bg-gradient-to-r from-whats-escuro via-whats to-whats-escuro border-4 border-branco cursor-pointer px-[4rem] py-[2rem] rounded-[8rem]'>
+                <span className='text-[3rem] font-belleza drop-shadow-lg text-branco uppercase'>Não sofra com nada disso. Não perca mais tempo</span>
+                <img src={whats} alt="" className='animate-bounce pl-[1rem] self-center '/>
+            </button>
+         </div>
     </>
     )
 }
