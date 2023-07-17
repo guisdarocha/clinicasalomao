@@ -20,6 +20,7 @@ export default {
       'whats-escuro': '#006E00',
       'branco': '#ffffff',
       'terra': '#D9C7B6',
+      'laranja': '#dda673',
     },
     borderRadius: {
       '46': '80px',
