@@ -60,7 +60,7 @@ const Equipe = () => {
 
             </div>
 
-            <div className='col-span-3 flex justify-center py-[4rem]'>
+            <div className='col-span-3 flex justify-center pt-[4rem] pb-[8rem]'>
                     <button className='flex bg-gradient-to-r from-whats-escuro via-whats to-whats-escuro border-4 border-branco drop-shadow-lg cursor-pointer px-[4rem] pt-[2rem] pb-[1rem] rounded-[8rem]'>
                         <span className='text-[2.1rem] font-belleza w-[43rem] text-center drop-shadow-lg text-branco leading-tight uppercase'>Quero fazer uma avaliação gratuita</span>
                         <img src={whats} alt="" className='animate-bounce pl-[1rem] self-center '/>
