@@ -67,25 +67,44 @@ const Processos = () => {
                     </div>
                 </div>
 
-                <div>
-                    <img src={bigodeChines} alt="" />
-                    <p>Bigode Chines</p>
+
+                <div className='flex pt-[5rem] col-span-2 justify-center items-center '>
+                    <div className='relative '>
+                        <div className='absolute -right-[12rem] -bottom-[1rem] pr-[5rem] w-[22rem]'>
+                            <p className='text-[2rem] w-[9rem] -mr-[6rem] font-belleza text-center text-vermelho-madeira'>Labial</p>
+                            <img src={direita} alt="" className=''/>
+                        </div>
+                    </div>
+                    <div className='order-last'>
+                        <img src={labial} alt="" className=' mr-[5rem] w-[548px] h-auto'/>
+                    </div>
+                </div>
+                
+                
+                <div className='flex pt-[5rem] col-span-2 justify-center items-center '>
+                    <div className='relative order-last'>
+                        <div className='absolute -left-[10rem] -bottom-[8rem] w-[21rem]'>
+                            <p className='text-[2rem] w-[15rem] ml-[5rem] font-belleza text-center text-vermelho-madeira'>Código de barras</p>
+                            <img src={esquerda} alt="" className=''/>
+                        </div>
+                    </div>
+                    <div className=''>
+                        <img src={codigoBarras} alt="" className=' mr-[5rem] w-[548px] h-auto'/>
+                    </div>
                 </div>
 
-                <div>
-                    <p>Labial</p>
-                    <img src={labial} alt="" />
+                <div className='flex pt-[5rem] col-span-2 justify-center items-center '>
+                    <div className='relative '>
+                        <div className='absolute -right-[12rem] -bottom-[2rem] pr-[5rem] w-[22rem]'>
+                            <p className='text-[2rem] w-[10rem] -mr-[5rem] font-belleza text-center text-vermelho-madeira'>Papada</p>
+                            <img src={direita} alt="" className=''/>
+                        </div>
+                    </div>
+                    <div className='order-last'>
+                        <img src={papadaDois} alt="" className=' mr-[5rem] w-[548px] h-auto'/>
+                    </div>
                 </div>
 
-                <div>
-                    <img src={codigoBarras} alt="" />
-                    <p>Código de barras</p>
-                </div>
-
-                <div>
-                    <p>Papada</p>
-                    <img src={papadaDois} alt="" />
-                </div>
             </div>
         </div>
     </div>
