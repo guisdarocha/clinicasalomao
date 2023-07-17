@@ -20,31 +20,27 @@ const Perguntas = () => {
                 <h3 className='w-[20rem] text-[3.5rem] font-belleza text-vermelho-madeira uppercase leading-tight'>perguntas frequentes</h3>
             </div>
 
-            <div className="col-span-2 pt-[2rem] max-w-[55rem] ">
-                <div className="flex justify-start mx-auto cursor-pointer bg-gradient-to-b from-perguntaA to-perguntaB cursor-pointer py-3 px-[11rem] rounded-46 drop-shadow-lg" onClick={toggleAnswer}>
-                    <p className="text-[2.3rem] text-creme font-belleza">Preciso fazer uma avaliação?</p> 
-                    <img src={seta} className='pt-[0.4rem] pl-[1rem]'/>
+            <div className="col-span-2 py-[4rem]  max-w-[55rem] ">
+                <div className="flex justify-start mx-auto cursor-pointer bg-gradient-to-b  from-perguntaA to-perguntaB cursor-pointer  rounded-46 " onClick={toggleAnswer}>
+                    <p className="text-[2.1rem] pl-[2rem] mr-[5rem] pr-[3rem] text-creme font-belleza">Preciso fazer uma avaliação?</p> 
+                    <img src={seta} className='flex justify-end pr-[1rem] pt-[0.4rem]'/>
                 </div>
                 {showAnswer && (
-                    <div className="flex justify-center mx-auto bg-creme  pt-[2rem]  rounded-bl-46  rounded-br-46 drop-shadow-lg">
-                    <p className='text-[1.5rem] w-[45rem] font-belleza text-vermelho-madeira leading-tight'>Sim, pois cada cliente tem uma indicação e anatomia distinta. Os tratamentos variam de acordo com o que vc deseja de resultado e indicação do profissional.</p>
+                    <div className=" flex justify-center mx-auto bg-creme  max-w-[49rem] py-[2rem]  rounded-bl-46  rounded-br-46 drop-shadow-lg ">
+                    <p className=' text-[1.5rem] ml-[5rem] w-[45rem] font-belleza text-vermelho-madeira leading-tight'>Sim, pois cada cliente tem uma indicação e anatomia distinta. Os tratamentos variam de acordo com o que vc deseja de resultado e indicação do profissional.</p>
                     </div>
                 )}
-            </div>
+            </div>               
+
+
+
+
         </div>   
     </div>      
 
 
     <div className="container">
-            <div>
-                <div className="pergunta">
-                    <p>Após procedimento o que devo ter de cuidados ?</p>
-                </div>
-                <div className="resposta">
-                    <p>Cada procedimento tem sua orientação. Mas pode ficar tranquila, rotina normal com alguns 
-                    cuidados específicos de cada protocolo</p>
-                </div>
-            </div>
+            
             <div>
                 <div className="pergunta">
                     <p>Posso fazer mais de um procedimento no mesmo dia?</p>
