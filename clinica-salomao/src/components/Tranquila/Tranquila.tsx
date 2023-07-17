@@ -3,7 +3,7 @@ import whats from '../../assets/whats.svg'
 const Tranquila = () => {
     return (
     <>
-    <div className=" bg-laranja ">
+    <div className=" bg-laranja flex justify-center items-center mx-auto h-[1200px]">
 
         <div className="grid grid-cols-1 pt-[6rem] max-w-[1080px]">
             <h3 className='text-[3.9rem] w-[55rem] text-center text-creme font-belleza leading-tight justify-center items-center mx-auto uppercase'>Pode ficar tranquila, estética não tem idade.</h3>
@@ -24,16 +24,15 @@ const Tranquila = () => {
                 </div>
             </div>
 
-            <h3 className='text-[3.9rem] w-[55rem] mt-[2rem] text-center text-creme font-belleza leading-tight justify-center items-center mx-auto uppercase'>Só depende de você</h3>
-        
-        </div>
-
-        <div className='flex justify-center items-center pt-[5rem] pb-[8rem] '>
-            <button className='flex bg-gradient-to-r from-whats-escuro via-whats to-whats-escuro border-4 border-branco drop-shadow-lg cursor-pointer px-[4rem] py-[2rem] rounded-[8rem]'>
-                <span className='text-[3rem] font-belleza w-[45rem] text-left drop-shadow-lg text-branco uppercase'>Resolva de uma vez por todas e não sofra mais com isso</span>
+            <h3 className='text-[3.9rem] w-[55rem] mt-[4rem] text-center text-creme font-belleza leading-tight justify-center items-center mx-auto uppercase'>Só depende de você</h3>
+            
+            <div className='flex justify-center items-center pt-[5rem] -pb-[8rem] '>
+                <button className='flex bg-gradient-to-r from-whats-escuro via-whats to-whats-escuro border-4 border-branco drop-shadow-lg cursor-pointer px-[4rem] py-[2rem] rounded-[8rem]'>
+                <span className='text-[3rem] font-belleza w-[50rem] text-left drop-shadow-lg text-branco leading-tight uppercase'>Resolva de uma vez por todas e não sofra mais com isso</span>
                 <img src={whats} alt="" className='animate-bounce pl-[1rem] self-center '/>
             </button>
          </div>
+        </div>
 
     </div>
     </>
