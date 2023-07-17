@@ -5,7 +5,7 @@ const Oito = () => {
     <>
     <div className='bg-terra '>
 
-    <div className="grid grid-cols-2 xl:grid-cols-3 gap-x-[5rem] gap-y-[5rem] px-[5rem]  pt-[10rem]">
+    <div className="grid grid-cols-2 justify-center items-center mx-auto max-w-[1080px] gap-x-[5rem] gap-y-[5rem] px-[5rem]  pt-[10rem]">
         <div className="flex justify-center items-center max-w-[400px] max-h-[335px] rounded-tl-46 rounded-br-46 bg-creme">
             <h4 className='text-[2.5rem] w-[18rem] py-[5rem] px-[2rem] font-garamond leading-tight text-center text-vermelho-madeira'>Você sente seu rosto derreter?</h4>
         </div>
@@ -31,7 +31,7 @@ const Oito = () => {
             <h4 className='text-[2.5rem] w-[23rem] py-[5rem] px-[2rem] font-garamond leading-tight text-center  text-vermelho-madeira'>Quantos anos você quer rejuvenescer sem precisar de uma cirurgia, já pensou nisso ?</h4>
         </div>
     </div>
-        <div className='flex justify-center items-center pt-[5rem] '>
+        <div className='flex justify-center items-center pt-[5rem] pb-[8rem] '>
             <button className='flex bg-gradient-to-r from-whats-escuro via-whats to-whats-escuro border-4 border-branco drop-shadow-lg cursor-pointer px-[4rem] py-[2rem] rounded-[8rem]'>
                 <span className='text-[3rem] font-belleza w-[45rem] text-left drop-shadow-lg text-branco uppercase'>Não sofra com nada disso. Não perca mais tempo</span>
                 <img src={whats} alt="" className='animate-bounce pl-[1rem] self-center '/>
