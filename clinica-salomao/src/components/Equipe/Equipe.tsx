@@ -42,7 +42,7 @@ const Equipe = () => {
                     </div>
             </div>
             
-            <div className="bg-siena col-span-3 rounded-46">
+            <div className="bg-siena col-span-3 rounded-46 -mt-[3rem]">
                 <p className='text-center mx-auto items-center w-[50rem] py-[2.5rem] mx-[3rem] rounded-tl-46 rounded-br-46 text-[2rem] font-belleza w-[52rem] text-creme leading-tight uppercase'>Você terá um acampamento 7 dias por semana, após a realização do
                 procedimento através de um Whatsapp especialmente para você!</p>
             </div>

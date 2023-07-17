@@ -14,6 +14,7 @@ export default {
     colors: {
       'creme': '#FBE8CF',
       'creme-escuro': '#C4B3A4',
+      'creme-claro': '#fff7ee',
       'vermelho-madeira': '#A66559',
       'siena': '#bf854f',
       'whats': '#009939',
@@ -21,6 +22,8 @@ export default {
       'branco': '#ffffff',
       'terra': '#D9C7B6',
       'laranja': '#dda673',
+      'perguntaA': '#D38B7E',
+      'perguntaB': '#A66559',
     },
     borderRadius: {
       '46': '80px',
