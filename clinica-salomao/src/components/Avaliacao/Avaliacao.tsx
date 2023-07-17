@@ -4,7 +4,7 @@ import whats from '../../assets/whats.svg'
 const Avaliacao = () => {
     return (
     <>
-    <div className='bg-vermelho-madeira'>
+    <div className='bg-vermelho-madeira drop-shadow-lg'>
 
         <div className='flex justify-center items-center mx-auto max-w-[1080px] '>
 
