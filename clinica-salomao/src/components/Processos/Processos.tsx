@@ -93,7 +93,7 @@ const Processos = () => {
                     </div>
                 </div>
 
-                <div className='flex pt-[5rem] col-span-2 justify-center items-center '>
+                <div className='flex pt-[5rem] pb-[8rem] col-span-2 justify-center items-center '>
                     <div className='relative '>
                         <div className='absolute -right-[12rem] -bottom-[2rem] pr-[5rem] w-[22rem]'>
                             <p className='text-[2rem] w-[10rem] -mr-[5rem] font-belleza text-center text-vermelho-madeira'>Papada</p>
