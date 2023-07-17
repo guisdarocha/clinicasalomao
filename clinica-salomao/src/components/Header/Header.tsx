@@ -27,7 +27,7 @@ const Header = () => {
             </div>
        </div>
         
-        <div className="flex -mt-[rem] drop-shadow-lg xl:-mt-[18rem] md:-mt-[18rem] xl:w-[1280px] xl:flex 2xl:flex 2xl:">
+        <div className="flex items-center -mt-[2rem] drop-shadow-lg xl:-mt-[18rem] md:-mt-[18rem] xl:w-[1280px] xl:flex 2xl:flex 2xl:">
             <div className="bg-vermelho-madeira rounded-tl-46 rounded-br-46 ">
                 <h3 className='text-[2.5rem] w-auto text-center font-belleza text-creme leading-tight mx-[5.5rem] my-[3rem] xl:w-[1280px]  '>Tratamentos que estimulam colágeno de forma natural e muito segura, proporcionando um resultado maravilhoso devolvendo sua autoestima com segurança</h3>
             </div>

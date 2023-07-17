@@ -7,7 +7,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        belleza: ['Belezza']
+        belleza: ['Belezza'],
+        garamond: ['Garamond']
       },
     },
     colors: {
@@ -18,6 +19,7 @@ export default {
       'whats': '#009939',
       'whats-escuro': '#006E00',
       'branco': '#ffffff',
+      'terra': '#D9C7B6',
     },
     borderRadius: {
       '46': '80px',

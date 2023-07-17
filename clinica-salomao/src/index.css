@@ -2,8 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 @font-face {
-    font-family: 'Belleza'; /* Same font name used in the tailwind.config.js file */
+    font-family: 'Belleza'; 
     src: url('./fonts/Belleza.ttf') format('truetype'); 
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Garamond'; 
+    src: url('./fonts/Garamond.ttf') format('truetype'); 
     font-weight: normal;
     font-style: normal;
   }
