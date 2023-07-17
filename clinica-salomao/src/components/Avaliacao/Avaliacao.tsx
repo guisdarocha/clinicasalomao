@@ -9,13 +9,11 @@ const Avaliacao = () => {
         <div className='flex justify-center items-center mx-auto max-w-[1080px] '>
 
             <div className='grid grid-cols-2'>
-                <div className=" pl-[3rem] pt-[3rem]">
-                    <p className='text-[1.8rem] text-creme font-belleza leading-tight'>Através de uma avaliação personalizada, individual um protocolo será
-                    montado especialmente para você. Nosso profissional irá lhe apresentar o
-                    melhor tratamento, para que você tenha resultado que sempre desejou e saia
-                    maravilhada com sua autoestima nas alturas. Faça inveja para suas amigas e
-                    fique 10 anos mais jovem
-                    </p>
+                <div className="justify-center items-center mx-auto pl-[3rem] pt-[5rem]">
+                    <p className='text-[1.8rem] text-creme font-belleza leading-tight'>Através de uma avaliação personalizada, individual um protocolo será.</p>
+                    <p className='text-[1.8rem] pt-[2rem] text-creme font-belleza leading-tight'>Montado especialmente para você. Nosso profissional irá lhe apresentar o melhor tratamento, para que você tenha resultado que sempre desejou e saia.</p>
+                    <p className='text-[1.8rem] pt-[2rem] text-creme font-belleza leading-tight'>Maravilhada com sua autoestima nas alturas. Faça inveja para suas amigas e fique 10 anos mais jovem.</p>
+                    
                     <div className='pt-[3rem]'>
                         <button className='flex  justify-center items-center mx-auto bg-gradient-to-r from-whats-escuro via-whats  to-whats-escuro py-[1rem] border-4 border-branco drop-shadow-lg cursor-pointer rounded-[8rem]'>
                             <span className='text-[1.2rem] font-belleza  pl-[0.8rem] text-center drop-shadow-lg text-branco leading-tight uppercase'>Quero iniciar agora meu tratamento</span>
