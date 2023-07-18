@@ -16,31 +16,26 @@ const Equipe = () => {
                 de especialização com mais de 15.000 clientes e 45.000 protocolos realizados</h3>
             </div>
             
+            
 
-            <div className='justify-center items-center mx-auto'>
-                    <img src={vanessa} alt="" />
+            <div className='justify-center items-center mx-auto mb-[9rem]'>
+                    <img src={vanessa} alt="" className='hover:h-[230px] w-auto'/>
                         <h5 className='text-[1.1rem] w-[10rem] justify-center items-center mx-auto mt-[1rem] font-belleza text-center text-vermelho-madeira leading-tight'>Dra. Vanessa Pouza Biomédica Estéta CRBM: 22183</h5>
-                    <div className='relative -top-[10rem] left-[0.4rem]'>
-                        <img src={borda} alt="" />
-                    </div>
             </div>
 
 
-            <div className='justify-center items-center mx-auto'>
-                    <img src={matheus} alt="" />
+            <div className='justify-center items-center mx-auto mb-[9rem]' >
+                    <img src={matheus} alt="" className='hover:h-[240px] w-auto'/>
                         <h5 className='text-[1.1rem] w-[10rem] justify-center items-center mx-auto mt-[1rem] font-belleza text-center text-vermelho-madeira leading-tight'>Dr. Matheus Lobato Biomédico Estéta CRBM: 30182</h5>
-                    <div className='relative -top-[10rem] left-[0.4rem]'>
-                        <img src={borda} alt="" />
-                    </div>
+
             </div>
 
-            <div className='justify-center items-center mx-auto'>
-                    <img src={beatriz} alt="" />
+            <div className='justify-center items-center mx-auto mb-[9rem]'>
+                    <img src={beatriz} alt="" className='hover:h-[240px] w-auto'/>
                         <h5 className='text-[1.1rem] w-[10rem] justify-center items-center mx-auto mt-[1rem] font-belleza text-center text-vermelho-madeira leading-tight'>Dra. Beatriz Aguirre Biomédica Estéta CRBM: 49802</h5>
-                    <div className='relative -top-[10rem] left-[0.4rem]'>
-                        <img src={borda} alt="" />
-                    </div>
+
             </div>
+
             
             <div className="bg-siena col-span-3 rounded-46 -mt-[3rem]">
                 <p className='text-center mx-auto items-center w-[50rem] py-[2.5rem] mx-[3rem] rounded-tl-46 rounded-br-46 text-[2rem] font-belleza w-[52rem] text-creme leading-tight uppercase'>Você terá um acampamento 7 dias por semana, após a realização do
