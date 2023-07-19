@@ -32,9 +32,9 @@ const Oito = () => {
         </div>
     </div>
         <div className='flex justify-center items-center pt-[5rem] pb-[8rem] '>
-            <button className='flex bg-gradient-to-r from-whats-escuro via-whats to-whats-escuro border-4 border-branco drop-shadow-lg cursor-pointer px-[4rem] py-[2rem] rounded-[8rem]'>
-                <span className='text-[3rem] font-belleza w-[45rem] text-left drop-shadow-lg text-branco uppercase'>Não sofra com nada disso. Não perca mais tempo</span>
-                <img src={whats} alt="" className='animate-bounce pl-[1rem] self-center '/>
+            <button className='flex bg-gradient-to-r from-whats-escuro via-whats to-whats-escuro border-4 border-branco drop-shadow-lg cursor-pointer px-[4rem] py-[2rem] rounded-[8rem] hover:shadow-dentro hover:shadow-creme'>
+                <span className='text-[3rem] font-belleza w-[45rem] text-left drop-shadow-lg text-branco uppercase hover:text-[3.1rem] hover:w-[46rem]'>Não sofra com nada disso. Não perca mais tempo</span>
+                <img src={whats} alt="" className='pl-[1rem] self-center w-[100px] h-auto'/>
             </button>
          </div>
     </div>
