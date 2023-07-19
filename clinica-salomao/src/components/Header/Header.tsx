@@ -10,11 +10,14 @@ const Header = () => {
             <img src={logo} alt="" className='w-15 h-auto'/>
         </div>
 
+
+
         <div className="grid justify-items-center pt-20">
             <h1 className='text-[6.875rem] -mb-12 font-belleza text-vermelho-madeira uppercase'>Rejuvenescer</h1>
             <h1 className='text-[6.5rem] -mb-4 font-belleza text-vermelho-madeira uppercase'>mais de <span className='text-[9rem] text-siena'>10</span> anos </h1>
             <h1 className='text-[4rem] font-belleza text-vermelho-madeira uppercase'>sem cirurgia é possível</h1>
         </div>
+
 
         <div className="flex justify-center -mt-[3rem]">
             <div className='flex content-center pt-[12rem] pl-[5rem] pb-[16rem] md:pb-[32rem] max-w-[531px] h-auto '>
@@ -26,6 +29,8 @@ const Header = () => {
                 <img src={imagemHeader} alt="" className=' ' />
             </div>
        </div>
+
+        
         
         <div className="flex items-center mx-auto -mt-[2rem] drop-shadow-lg xl:-mt-[18rem] md:-mt-[18rem] xl:w-[1280px]  ">
             <div className="bg-vermelho-madeira rounded-tl-46 rounded-br-46 ">

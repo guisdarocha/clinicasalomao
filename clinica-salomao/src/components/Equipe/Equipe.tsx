@@ -2,14 +2,13 @@ import vanessa from '../../assets/vanessa.png'
 import matheus from '../../assets/matheus.png'
 import beatriz from '../../assets/beatriz.png'
 import whats from '../../assets/whats.svg'
-import borda from '../../assets/borderEquipe.svg'
 
 const Equipe = () => {
     return (
     <>
     <div className="bg-creme flex justify-center items-center mx-auto">
 
-        <div className="grid grid-cols-3 flex justify-center items-center max-w-[1080px] pt-[4rem]">
+        <div className="grid grid-cols-3 justify-center items-center max-w-[1080px] pt-[4rem]">
             
             <div className="justify-center items-center mx-auto col-span-3 w-[50rem] pb-[5rem]">
                 <h3 className='text-[2.5rem] font-belleza text-center text-vermelho-madeira leading-tight'>Nossa Equipe é formada por profissionais Especialistas em Harmonização Facial com cursos
@@ -38,7 +37,7 @@ const Equipe = () => {
 
             
             <div className="bg-siena col-span-3 rounded-46 -mt-[3rem]">
-                <p className='text-center mx-auto items-center w-[50rem] py-[2.5rem] mx-[3rem] rounded-tl-46 rounded-br-46 text-[2rem] font-belleza w-[52rem] text-creme leading-tight uppercase'>Você terá um acampamento 7 dias por semana, após a realização do
+                <p className='text-center mx-auto items-center w-[40rem] py-[2.5rem] rounded-tl-46 rounded-br-46 text-[2rem] font-belleza text-creme leading-tight uppercase'>Você terá um acampamento 7 dias por semana, após a realização do
                 procedimento através de um Whatsapp especialmente para você!</p>
             </div>
             
