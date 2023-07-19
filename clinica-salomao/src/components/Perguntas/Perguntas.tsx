@@ -103,11 +103,11 @@ import whats from '../../assets/whats.svg'
             </Accordion>
 
             
-            <Accordion className="bg-vermelho-madeira mt-[2rem]" open={open === 7} icon={<Icon id={7} open={open}  />}>
+            <Accordion className="bg-vermelho-madeira mt-[2rem] " open={open === 7} icon={<Icon id={7} open={open}  />}>
               <AccordionHeader className="text-[2rem] pl-[2rem] text-creme font-belleza font-thin hover:text-creme" onClick={() => handleOpen(7)}>
               Esses procedimentos são compatíveis com o organismo?
               </AccordionHeader>
-              <AccordionBody className="bg-creme text-[1.5rem] py-[2rem] px-[2rem] text-vermelho-madeira font-belleza font-thin leading-tight">
+              <AccordionBody className="bg-creme  text-[1.5rem] py-[2rem] px-[2rem] text-vermelho-madeira font-belleza font-thin leading-tight">
               São compatíveis e absorvidos pelo organismo. Melhor tecnologia que temos hoje na Estética é 
               usada na Salomão sempre pensando na sua segurança.
               </AccordionBody>
