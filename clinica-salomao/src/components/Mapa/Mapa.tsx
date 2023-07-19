@@ -14,9 +14,9 @@ const Mapa = () => {
          </div>
 
          <div className='flex justify-center items-center pt-[5rem] '>
-            <button className='flex bg-gradient-to-r from-whats-escuro via-whats to-whats-escuro border-4 border-branco cursor-pointer drop-shadow-lg px-[4rem] py-[2rem] rounded-[8rem]'>
-                <span className='text-[3rem] font-belleza drop-shadow-lg leading-tight text-branco uppercase'>Quero tratar minha flacidez</span>
-                <img src={whats} alt="" className='animate-bounce pl-[1rem] self-center '/>
+            <button className='flex bg-gradient-to-r from-whats-escuro via-whats to-whats-escuro border-4 border-branco cursor-pointer drop-shadow-lg px-[4rem] py-[2rem] rounded-[8rem] hover:shadow-dentro hover:shadow-creme'>
+                <span className='text-[3rem] font-belleza drop-shadow-lg leading-tight text-branco uppercase hover:text-[3.1rem]'>Quero tratar minha flacidez</span>
+                <img src={whats} alt="" className='pl-[1rem] self-center '/>
             </button>
          </div>
     </div>
