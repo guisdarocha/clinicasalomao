@@ -32,9 +32,9 @@ const Header = () => {
 
         
         
-        <div className="flex items-center mx-auto -mt-[2rem] drop-shadow-lg xl:-mt-[18rem] md:-mt-[18rem] xl:w-[1280px]  ">
+        <div className="flex items-center mx-auto drop-shadow-lg -mt-[16rem] max-w-[1080px] ">
             <div className="bg-vermelho-madeira rounded-tl-46 rounded-br-46 ">
-                <h3 className='text-[2.5rem] w-auto text-center font-belleza text-creme leading-tight mx-[5.5rem] my-[3rem] xl:w-[1280px]  '>Tratamentos que estimulam colágeno de forma natural e muito segura, proporcionando um resultado maravilhoso devolvendo sua autoestima com segurança</h3>
+                <h3 className='text-[2.5rem] text-center font-belleza text-creme leading-tight  py-[3rem] px-[4rem] '>Tratamentos que estimulam colágeno de forma natural e muito segura, proporcionando um resultado maravilhoso devolvendo sua autoestima com segurança</h3>
             </div>
         </div>
     </div>
