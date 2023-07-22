@@ -15,10 +15,12 @@ const Avaliacao = () => {
                     <p className='text-[1.8rem] pt-[2rem] text-creme font-belleza leading-tight'>Maravilhada com sua autoestima nas alturas. Faça inveja para suas amigas e fique 10 anos mais jovem.</p>
                     
                     <div className='pt-[3rem]'>
+                    <a href='https://wa.me/5511997173432?text=Gostaria de saber mais sobre a Estética Salomão'>
                         <button className='flex px-[0.5rem] justify-center items-center mx-auto bg-gradient-to-r from-whats-escuro via-whats  to-whats-escuro py-[1rem] border-2 border-branco drop-shadow-lg cursor-pointer rounded-[8rem] hover:shadow-dentro hover:shadow-creme'>
                             <span className='text-[1.2rem] font-belleza  pl-[0.8rem] text-center drop-shadow-lg text-branco leading-tight uppercase'>Quero iniciar agora meu tratamento</span>
                             <img src={whats} alt="" className=' pl-[0.5rem] pr-[0.3rem] self-center w-[60px] '/>
                         </button>
+                    </a>    
                     </div>
                 </div>
                 <div className='flex justify-end'>
