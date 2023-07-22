@@ -31,14 +31,14 @@ const Oito = () => {
             <h4 className='text-[2.5rem] w-[23rem] py-[5rem] px-[2rem] font-garamond leading-tight text-center  text-vermelho-madeira'>Quantos anos você quer rejuvenescer sem precisar de uma cirurgia, já pensou nisso ?</h4>
         </div>
     </div>
-        <div className='flex justify-center items-center pt-[5rem] pb-[8rem] '>
         <a href='https://wa.me/5511997173432?text=Gostaria de saber mais sobre a Estética Salomão'>
+        <div className='flex justify-center items-center pt-[5rem] pb-[8rem] '>
             <button className='flex bg-gradient-to-r from-whats-escuro via-whats to-whats-escuro border-4 border-branco drop-shadow-lg cursor-pointer px-[4rem] py-[2rem] rounded-[8rem] hover:shadow-dentro hover:shadow-creme'>
                 <span className='text-[3rem] font-belleza w-[45rem] text-left drop-shadow-lg text-branco uppercase hover:text-[3.1rem] hover:w-[46rem]'>Não sofra com nada disso. Não perca mais tempo</span>
                 <img src={whats} alt="" className='pl-[1rem] self-center w-[100px] h-auto'/>
             </button>
-        </a>
          </div>
+        </a>
     </div>
     </>
     )

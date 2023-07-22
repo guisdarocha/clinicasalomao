@@ -26,14 +26,14 @@ const Tranquila = () => {
 
             <h3 className='text-[3.9rem] w-[55rem] mt-[4rem] text-center text-creme font-belleza leading-tight justify-center items-center mx-auto uppercase'>Só depende de você</h3>
             
-            <div className='flex justify-center items-center pt-[5rem] -pb-[8rem] '>
             <a href='https://wa.me/5511997173432?text=Gostaria de saber mais sobre a Estética Salomão'>
+            <div className='flex justify-center items-center pt-[5rem] -pb-[8rem] '>
                 <button className='flex bg-gradient-to-r from-whats-escuro via-whats to-whats-escuro border-4 border-branco drop-shadow-lg cursor-pointer px-[4rem] py-[2rem] rounded-[8rem] hover:shadow-dentro hover:shadow-creme'>
                 <span className='text-[3rem] font-belleza w-[50rem] text-left drop-shadow-lg text-branco leading-tight uppercase hover:text-[3.1rem] hover:w-[51rem]'>Resolva de uma vez por todas e não sofra mais com isso</span>
                 <img src={whats} alt="" className='w-[100px] pl-[1rem] self-center '/>
             </button>
-            </a>
          </div>
+            </a>
         </div>
 
     </div>
