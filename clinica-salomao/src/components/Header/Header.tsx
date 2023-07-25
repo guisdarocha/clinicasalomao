@@ -6,13 +6,13 @@ const Header = () => {
     return (
     <>
     <div className='bg-gradient-to-t from-creme-escuro to-creme w-full h-[1730px] xl:w-auto md:bg-creme  sm:bg-creme '>
-        <div className="flex justify-center pt-6 ">
-            <img src={logo} alt="" className='w-15 h-auto'/>
+        <div className="flex justify-center pt-6 bg-creme-claro h-[11.37rem] w-auto">
+            <img src={logo} alt="" className='absolute max-w-[22rem] h-auto'/>
         </div>
 
 
 
-        <div className="grid justify-items-center pt-20">
+        <div className="grid justify-items-center pt-20 pb-20">
             <h1 className='text-[6.875rem] -mb-12 font-belleza text-vermelho-madeira uppercase'>Rejuvenescer</h1>
             <h1 className='text-[6.5rem] -mb-4 font-belleza text-vermelho-madeira uppercase'>mais de <span className='text-[9rem] text-siena'>10</span> anos </h1>
             <h1 className='text-[4rem] font-belleza text-vermelho-madeira uppercase'>sem cirurgia é possível</h1>
@@ -20,16 +20,16 @@ const Header = () => {
 
 
         <div className="flex justify-center -mt-[3rem]">
-            <div className='flex content-center pt-[12rem] pl-[5rem] pb-[16rem] md:pb-[32rem] max-w-[531px] h-auto '>
-                <div className='bg-siena rounded-tl-46 '>
-                    <h2 className='flex justify-center text-[3.12rem]  font-mont text-creme leading-tight text-left'>Você que tem entre 40 e 65 anos, que tal
-                    <p className='text-[3.12rem] font-mont font-semibold flex justify-center'>ELIMINAR</p>a
-                    FLACIDEZ
-                    e as
-                    RUGAS.</h2>
+            <div className='flex content-center pt-[12rem] pl-[5rem] pb-[16rem] md:pb-[32rem] h-auto '>
+                <div className='bg-siena  w-[55rem] h-auto rounded-tl-46 flex justify-left items-center  pl-[4rem] py-[3rem] '>
+                    <h2 className='text-[3.12rem]  max-w-[23rem] font-mont text-creme leading-tight text-left'>Você que tem entre 40 e 65 anos, que tal 
+                    <span className='text-[3.12rem] font-extrabold text-creme'> ELIMINAR</span> a
+                    <span className='text-[3.12rem] font-extrabold text-creme'> FLACIDEZ</span> e
+                    as <span className='text-[3.12rem] font-extrabold text-creme'> RUGAS</span> 
+                    </h2>
                 </div>
             </div>          
-            <div className="flex place-content-end h-[1100px]">
+            <div className="absolute right-1 max-w-[35rem] max-h-[81rem]">
                 <img src={imagemHeader} alt="" className=' ' />
             </div>
        </div>
