@@ -12,7 +12,8 @@ module.exports = withMT({
     extend: {
       fontFamily: {
         belleza: ['Belezza'],
-        garamond: ['Garamond']
+        garamond: ['Garamond'],
+        mont: ['Montserrat'],
       },
     },
     colors: {

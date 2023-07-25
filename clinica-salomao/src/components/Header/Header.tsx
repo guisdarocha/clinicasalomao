@@ -22,7 +22,11 @@ const Header = () => {
         <div className="flex justify-center -mt-[3rem]">
             <div className='flex content-center pt-[12rem] pl-[5rem] pb-[16rem] md:pb-[32rem] max-w-[531px] h-auto '>
                 <div className='bg-siena rounded-tl-46 '>
-                    <h2 className='flex justify-center text-[3.25rem] w-[288px] h-auto mt-[6rem] mb-[6rem] ml-[4rem] mr-[30rem] font-belleza text-creme leading-tight text-left'>Você que tem entre 40 e 65 anos, que tal ELIMINAR a FLACIDEZ e as RUGAS.</h2>
+                    <h2 className='flex justify-center text-[3.12rem]  font-mont text-creme leading-tight text-left'>Você que tem entre 40 e 65 anos, que tal
+                    <p className='text-[3.12rem] font-mont font-semibold flex justify-center'>ELIMINAR</p>a
+                    FLACIDEZ
+                    e as
+                    RUGAS.</h2>
                 </div>
             </div>          
             <div className="flex place-content-end h-[1100px]">
