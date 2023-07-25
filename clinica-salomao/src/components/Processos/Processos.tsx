@@ -17,8 +17,10 @@ const Processos = () => {
             <div className='grid grid-cols-2 '>
                 <div className="col-span-2 justify-center items-center mx-auto py-[4rem] px-[4rem] ">
                     <h3 className='text-[3.1rem] font-belleza text-center text-vermelho-madeira uppercase'>Você está com dúvida?</h3>
-                    <h4 className='text-[2.3rem]  w-[50rem] pt-[2rem] font-belleza text-center text-vermelho-madeira leading-tight'>Então veja os resultados abaixo de nossas clientes, tenho certeza que
-                    você vai Amar cada resultado e dar seu primeiro passo para seu rejuvenescimento!</h4>
+                    <h4 className='text-[2.3rem]  w-[56rem] pt-[2rem] font-mont text-center text-vermelho-madeira leading-snug'>
+                    Então veja os resultados abaixo de nossas clientes, tenho certeza que você vai
+                    <span className='text-[2.3rem] font-mont font-extrabold uppercase'> Amar </span>
+                    e dar o primeiro passo para o seu rejuvenescimento!</h4>
                 </div>
                 
                 <div className='flex col-span-2 justify-center items-center '>
