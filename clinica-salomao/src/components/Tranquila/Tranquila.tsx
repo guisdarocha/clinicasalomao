@@ -1,4 +1,3 @@
-import whats from '../../assets/whats.svg'
 
 const Tranquila = () => {
     return (
