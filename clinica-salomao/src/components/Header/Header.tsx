@@ -21,7 +21,7 @@ const Header = () => {
 
         <div className="flex justify-center -mt-[3rem]">
             <div className='flex content-center pt-[12rem] pl-[5rem] pb-[16rem] md:pb-[32rem] h-auto '>
-                <div className='bg-siena  w-[55rem] h-auto rounded-tl-46 flex justify-left items-center  pl-[4rem] py-[3rem] '>
+                <div className='bg-siena  w-[55rem] h-auto hover:shadow-dentro hover:shadow-creme hover:transition-all hover:ease-out hover:duration-700 rounded-tl-46 flex justify-left items-center  pl-[4rem] py-[3rem] '>
                     <h2 className='text-[3.12rem]  max-w-[23rem] font-mont text-creme leading-tight text-left'>Você que tem entre 40 e 65 anos, que tal 
                     <span className='text-[3.12rem] font-extrabold text-creme'> ELIMINAR</span> a
                     <span className='text-[3.12rem] font-extrabold text-creme'> FLACIDEZ</span> e
@@ -29,16 +29,16 @@ const Header = () => {
                     </h2>
                 </div>
             </div>          
-            <div className="absolute right-1 max-w-[35rem] max-h-[81rem]">
+            <div className="absolute right-1 max-w-[35rem] max-h-[81rem] xl:right-[3rem] 2xl:right-[12rem]">
                 <img src={imagemHeader} alt="" className=' ' />
             </div>
        </div>
 
         
         
-        <div className="flex items-center mx-auto drop-shadow-lg -mt-[16rem] max-w-[1080px] ">
+        <div className="flex items-center mx-auto drop-shadow-lg -mt-[16rem] max-w-[1180px] ">
             <div className="bg-vermelho-madeira rounded-tl-46 rounded-br-46 ">
-                <h3 className='text-[2.5rem] text-center font-belleza text-creme leading-tight  py-[3rem] px-[4rem] '>Tratamentos que estimulam colágeno de forma natural e muito segura, proporcionando um resultado maravilhoso devolvendo sua autoestima com segurança</h3>
+                <h3 className='text-[2.5rem] text-center font-mont text-creme leading-tight  py-[3rem] px-[4rem] '>Tratamentos que estimulam colágeno de forma natural e muito segura, proporcionando um resultado maravilhoso devolvendo sua autoestima com segurança</h3>
             </div>
         </div>
     </div>
