@@ -17,6 +17,6 @@
   @font-face {
     font-family: 'Montserrat'; 
     src: url('./fonts/Montserrat.ttf') format('truetype'); 
-    font-weight: normal, extrabold;
-    font-style: normal, extrabold;
+    font-weight: normal, semibold, extrabold;
+    font-style: normal, semibold, extrabold;
   }
