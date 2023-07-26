@@ -23,19 +23,19 @@ const Equipe = () => {
 
             <div className='justify-center items-center mx-auto mb-[9rem]'>
                     <img src={vanessa} alt="" className='hover:h-[230px] w-auto '/>
-                        <h5 className='text-[1.1rem] w-[10rem] justify-center items-center mx-auto mt-[1rem] font-belleza text-center text-vermelho-madeira leading-tight'>Dra. Vanessa Pouza Biomédica Estéta CRBM: 22183</h5>
+                        <h5 className='text-[1rem] w-[10rem] justify-center items-center mx-auto mt-[1rem] font-mont text-center text-vermelho-madeira '>Dra. Vanessa Pouza Biomédica Estéta CRBM: 22183</h5>
             </div>
 
 
             <div className='justify-center items-center mx-auto mb-[9rem]' >
                     <img src={matheus} alt="" className='hover:h-[240px] w-auto'/>
-                        <h5 className='text-[1.1rem] w-[10rem] justify-center items-center mx-auto mt-[1rem] font-belleza text-center text-vermelho-madeira leading-tight'>Dr. Matheus Lobato Biomédico Estéta CRBM: 30182</h5>
+                        <h5 className='text-[1rem] w-[10rem] justify-center items-center mx-auto mt-[1rem] font-mont text-center text-vermelho-madeira '>Dr. Matheus Lobato Biomédico Estéta CRBM: 30182</h5>
 
             </div>
 
             <div className='justify-center items-center mx-auto mb-[9rem]'>
                     <img src={beatriz} alt="" className='w-auto hover:h-[240px]  '/>
-                        <h5 className='text-[1.1rem] w-[10rem] justify-center items-center mx-auto mt-[1rem] font-belleza text-center text-vermelho-madeira leading-tight'>Dra. Beatriz Aguirre Biomédica Estéta CRBM: 49802</h5>
+                        <h5 className='text-[1rem] w-[10rem] justify-center items-center mx-auto mt-[1rem] font-mont text-center text-vermelho-madeira '>Dra. Beatriz Aguirre Biomédica Estéta CRBM: 49802</h5>
 
             </div>
 
