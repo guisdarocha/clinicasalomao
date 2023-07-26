@@ -21,6 +21,7 @@ module.exports = withMT({
       'creme-escuro': '#C4B3A4',
       'creme-claro': '#fff7ee',
       'vermelho-madeira': '#A66559',
+      'vermelho-escuro': '#86483C',
       'siena': '#bf854f',
       'whats': '#009939',
       'whats-escuro': '#006E00',
