@@ -11,7 +11,7 @@ const Footer = () => {
                 <div className="w-[720px] lg:w-[780px] h-[0.1rem] bg-vermelho-madeira "></div>
             </div>
 
-        <div className="flex justify-center mx-auto max-w-[1080px] pb-[3rem] font-belleza">
+        <div className="flex justify-center mx-auto max-w-[1080px] pb-[3rem] font-mont">
           
             <div className='flex justify-center items-center pl-[0.3rem]'> 
                 <div className="px-[0.7rem]">
@@ -31,10 +31,10 @@ const Footer = () => {
                 <div className="px-[0.7rem]">
                     <img src={instagram} alt="" className='w-[2.2rem] h-auto '/>
                 </div>
-                <p className='text-[1rem] w-[9.3rem] text-vermelho-madeira leading-tight '>@esteticasalomao</p>
+                <p className='text-[1rem] w-[9.3rem] text-vermelho-madeira leading-tight'>@esteticasalomao</p>
             </div>
             <div>
-                <p className='text-[1rem] w-[9.3rem] text-vermelho-madeira leading-tight '>CNPJ: 41.325.545/0001-55</p>
+                <p className='text-[1rem] w-[9.3rem] ml-[2rem] text-vermelho-madeira leading-tight '>CNPJ: 41.325.545/0001-55</p>
             </div>
         </div>
     </div>
