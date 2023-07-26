@@ -2,23 +2,27 @@ import vanessa from '../../assets/vanessa.png'
 import matheus from '../../assets/matheus.png'
 import beatriz from '../../assets/beatriz.png'
 import whats from '../../assets/whats.svg'
+import calendario from '../../assets/calendario.svg'
 
 const Equipe = () => {
     return (
     <>
     <div className="bg-creme flex justify-center items-center mx-auto">
 
-        <div className="grid grid-cols-3 justify-center items-center max-w-[1080px] pt-[4rem]">
+        <div className="grid grid-cols-3 justify-center items-center max-w-[1080px] pt-[7rem]">
             
-            <div className="justify-center items-center mx-auto col-span-3 w-[50rem] pb-[5rem]">
-                <h3 className='text-[2.5rem] font-belleza text-center text-vermelho-madeira leading-tight'>Nossa Equipe é formada por profissionais Especialistas em Harmonização Facial com cursos
-                de especialização com mais de 15.000 clientes e 45.000 protocolos realizados</h3>
+            <div className="justify-center items-center mx-auto col-span-3 w-[51rem] pb-[5rem]">
+                <h3 className='text-[2.25rem] font-mont text-center text-vermelho-madeira leading-tight'>
+                Nossa Equipe é formada por profissionais Especialistas em Harmonização Facial com cursos
+                de especialização com mais de
+                <span className='font-mont font-extrabold'> 15.000 clientes e 45.000 protocolos realizados.</span>
+                </h3>
             </div>
             
             
 
             <div className='justify-center items-center mx-auto mb-[9rem]'>
-                    <img src={vanessa} alt="" className='hover:h-[230px] w-auto'/>
+                    <img src={vanessa} alt="" className='hover:h-[230px] w-auto '/>
                         <h5 className='text-[1.1rem] w-[10rem] justify-center items-center mx-auto mt-[1rem] font-belleza text-center text-vermelho-madeira leading-tight'>Dra. Vanessa Pouza Biomédica Estéta CRBM: 22183</h5>
             </div>
 
@@ -30,16 +34,24 @@ const Equipe = () => {
             </div>
 
             <div className='justify-center items-center mx-auto mb-[9rem]'>
-                    <img src={beatriz} alt="" className='hover:h-[240px] w-auto'/>
+                    <img src={beatriz} alt="" className='w-auto hover:h-[240px]  '/>
                         <h5 className='text-[1.1rem] w-[10rem] justify-center items-center mx-auto mt-[1rem] font-belleza text-center text-vermelho-madeira leading-tight'>Dra. Beatriz Aguirre Biomédica Estéta CRBM: 49802</h5>
 
             </div>
 
+                <div className='col-span-3 bg-vermelho-madeira'>
+                    <p className='text-[2.8rem] text-creme-claro font-mont font-extrabold uppercase'>Para você</p>
+
+                </div>
             
-            <div className="bg-siena col-span-3 rounded-46 -mt-[3rem]">
-                <p className='text-center mx-auto items-center w-[40rem] py-[2.5rem] rounded-tl-46 rounded-br-46 text-[2rem] font-belleza text-creme leading-tight uppercase'>Você terá um acampamento 7 dias por semana, após a realização do
-                procedimento através de um Whatsapp especialmente para você!</p>
-            </div>
+                <div className="bg-siena flex justify-center items-center mx-auto w-[1080px] pl-[6rem]">
+                    <img src={calendario} alt="" />
+                    <p className='text-left mx-auto items-center w-[41rem] py-[5rem]  text-[2rem] font-mont text-creme-claro uppercase'>Nós oferecemos um acampamento 
+                    <span className='font-extrabold'> 7 dias por semana,</span> após a realização do procedimento
+                    <span className='font-extrabold'> através de um Whatsapp especialmente para você.</span>
+                    </p>
+                </div>
+           
             
             <div className="justify-center items-center mx-auto col-span-3 pt-[3rem]">
 

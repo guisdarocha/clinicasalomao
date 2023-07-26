@@ -11,7 +11,7 @@ const Depoimento = () => {
                 <h5 className='text-[1.8rem] leading-tight'>Passe para o lado e veja outras avaliações</h5>
             </div>      
             
-            <div className='absolute lg:left-[10rem] lg:top-[898rem] xl:left-[20rem] xl:top-[894rem]'>
+            <div className='hidden absolute lg:left-[10rem] lg:top-[898rem] xl:left-[20rem] xl:top-[894rem]'>
                 <img src={depoimentoUm} alt="" className='h-[800px]' />
 
             </div>
