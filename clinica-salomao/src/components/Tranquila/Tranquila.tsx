@@ -4,7 +4,7 @@ const Tranquila = () => {
     <>
     <div className=" bg-laranja flex justify-center items-center mx-auto h-[1200px]">
 
-        <div className="grid grid-cols-1 pt-[6rem] max-w-[1080px]">
+        <div className="grid grid-cols-1 max-w-[1080px]">
             <h3 className='text-[3.9rem] w-[55rem] text-center text-creme font-belleza leading-tight justify-center items-center mx-auto uppercase'>Pode ficar tranquila, estética não tem idade.</h3>
             <h4 className='text-[2rem] pt-[2rem] text-creme font-mont font-semibold justify-center items-center mx-auto'>Vamos lá, faça seu procedimento mesmo que...</h4>
             
