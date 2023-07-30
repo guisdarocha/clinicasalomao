@@ -23,19 +23,19 @@ const Equipe = () => {
 
             <div className='justify-center items-center mx-auto mb-[9rem]'>
                     <img src={vanessa} alt="" className='hover:h-[230px] w-auto '/>
-                        <h5 className='text-[1rem] w-[10rem] justify-center items-center mx-auto mt-[1rem] font-mont text-center text-vermelho-madeira '>Dra. Vanessa Pouza Biomédica Estéta CRBM: 22183</h5>
+                        <h5 className='text-[1rem] w-[10rem] justify-center items-center mx-auto mt-[1rem] font-mont text-center text-vermelho-madeira '>Dra. Vanessa Pouza Biomédica Esteta CRBM: 22183</h5>
             </div>
 
 
             <div className='justify-center items-center mx-auto mb-[9rem]' >
                     <img src={matheus} alt="" className='hover:h-[240px] w-auto'/>
-                        <h5 className='text-[1rem] w-[10rem] justify-center items-center mx-auto mt-[1rem] font-mont text-center text-vermelho-madeira '>Dr. Matheus Lobato Biomédico Estéta CRBM: 30182</h5>
+                        <h5 className='text-[1rem] w-[10rem] justify-center items-center mx-auto mt-[1rem] font-mont text-center text-vermelho-madeira '>Dr. Matheus Lobato Biomédico Esteta CRBM: 30182</h5>
 
             </div>
 
             <div className='justify-center items-center mx-auto mb-[9rem]'>
                     <img src={beatriz} alt="" className='w-auto hover:h-[240px]  '/>
-                        <h5 className='text-[1rem] w-[10rem] justify-center items-center mx-auto mt-[1rem] font-mont text-center text-vermelho-madeira '>Dra. Beatriz Aguirre Biomédica Estéta CRBM: 49802</h5>
+                        <h5 className='text-[1rem] w-[10rem] justify-center items-center mx-auto mt-[1rem] font-mont text-center text-vermelho-madeira '>Dra. Beatriz Aguirre Biomédica Esteta CRBM: 49802</h5>
 
             </div>
 
@@ -43,7 +43,7 @@ const Equipe = () => {
             
                 <div className="bg-siena flex justify-center items-center mx-auto w-[1080px] pl-[6rem]">
                     <img src={calendario} alt="" />
-                    <p className='text-left mx-auto items-center w-[41rem] py-[5rem]  text-[2rem] font-mont text-creme-claro uppercase'>Nós oferecemos um acampamento 
+                    <p className='text-left mx-auto items-center w-[40rem] py-[4rem]  text-[2rem] font-mont text-creme-claro uppercase'>Nós oferecemos um acompanhamento 
                     <span className='font-extrabold'> 7 dias por semana,</span> após a realização do procedimento
                     <span className='font-extrabold'> através de um Whatsapp especialmente para você.</span>
                     </p>

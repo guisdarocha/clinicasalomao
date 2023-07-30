@@ -8,7 +8,7 @@ const Mapa = () => {
         <div className='flex justify-center'>
             <img src={brasil} alt="" className='flex' />
             <div className="grid self-center -ml-[3rem] w-[28rem] h-[289px]">
-                <h3 className='text-[2.25rem] text-vermelho-madeira font-belezza leading-tight uppercase'>Você sabia que o Brasil é referência MUNDIAL em Estética?</h3>
+                <h3 className='text-[2.25rem] text-vermelho-madeira font-belleza leading-tight uppercase'>Você sabia que o Brasil é referência MUNDIAL em Estética?</h3>
                 <h4 className='text-[2.2rem] pt-[55px] text-vermelho-madeira font-mont leading-tight'>Isso mesmo, é daqui que saem os protocolos com os melhores profissionais e produtos.</h4>
             </div>
          </div>
