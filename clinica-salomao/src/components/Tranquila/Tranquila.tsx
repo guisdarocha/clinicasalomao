@@ -8,7 +8,7 @@ const Tranquila = () => {
             <h3 className='text-[1.5rem] text-center text-creme font-belleza leading-tight justify-center items-center mx-auto uppercase'>Pode ficar tranquila, estética não tem idade.</h3>
             <h4 className='text-[1rem] pt-[1rem] text-creme w-[17.1rem] text-center font-mont font-semibold justify-center leading-tight items-center mx-auto'>Vamos lá, faça seu procedimento mesmo que...</h4>
             
-            <div className='justify-center items-center mx-auto pt-[2rem] '>
+            <div className='justify-center items-center mx-auto pt-[2rem] px-1 '>
                 <div className='flex justify-center text-center items-center  my-2 px-[4rem] py-[1rem] rounded-tl-46 rounded-br-46 bg-vermelho-madeira'>
                     <h5 className='text-[0.87rem] font-mont text-creme'>PREVENTIVAMENTE, e dê um breque no seu envelhecimento</h5>
                 </div>
