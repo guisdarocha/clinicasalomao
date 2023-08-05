@@ -4,7 +4,7 @@ import botao from '../../assets/botao.png'
 const Oito = () => {
     return (
     <>
-    <div className='bg-terra '>
+    <div className='bg-terra pb-[3rem]'>
 
     <div className="grid grid-cols-2 ml-3 justify-center items-center mx-auto max-w-[360px] gap-x-3 gap-y-4 pt-[3rem]">
         <div className="flex justify-center items-center w-[9.25rem] h-[6.5rem] rounded-tl-2xl rounded-br-2xl bg-creme">
