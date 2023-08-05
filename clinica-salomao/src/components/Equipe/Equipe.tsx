@@ -20,16 +20,27 @@ const Equipe = () => {
             </div>
             
             
+            <div className='grid col-span-2 -mt-[83rem] mx-9'>
+                <div className='flex border-2 border-siena rounded-br-2xl justify-center items-center mx-auto my-[1rem]'>
+                        <img src={vanessa} alt="" className='w-[6rem] -ml-[2rem] -my-[1rem]'/>
+                            <h5 className='text-[0.8rem] w-[17rem]  mx-[2rem] justify-center items-center font-mont text-center text-vermelho-madeira '>Dra. Vanessa Pouza Biomédica Esteta CRBM: 22183</h5>
+                </div>
 
-            <div className='flex mx-auto -mt-[50rem]'>
-                    <img src={vanessa} alt="" className='w-[15rem] '/>
-                    <div className=''></div>
-                        <h5 className='text-[1rem] w-[10rem] justify-center items-center mx-auto mt-[1rem] font-mont text-center text-vermelho-madeira '>Dra. Vanessa Pouza Biomédica Esteta CRBM: 22183</h5>
+                <div className='flex border-2 border-siena rounded-br-2xl justify-center items-center mx-auto my-[1rem]'>
+                        <img src={matheus} alt="" className='w-[6rem] -ml-[2rem] -my-[1rem]'/>
+                            <h5 className='text-[0.8rem] w-[17rem]  mx-[2rem] justify-center items-center font-mont text-center text-vermelho-madeira '>Dr. Matheus Lobato Biomédico Esteta CRBM: 30182</h5>
+                </div>
+
+
+                <div className='flex border-2 border-siena rounded-br-2xl justify-center items-center mx-auto my-[1rem]'>
+                        <img src={beatriz} alt="" className='w-[6rem] -ml-[2rem] -my-[1rem]'/>
+                            <h5 className='text-[0.8rem] w-[17rem]  mx-[2rem] justify-center items-center font-mont text-center text-vermelho-madeira '>Dra. Beatriz Aguirre Biomédica Esteta CRBM: 49802</h5>
+                </div>
+
+
             </div>
-
-
-            
-                <div className="bg-siena flex justify-center items-center mx-auto w-[360px] mt-[50rem] pl-[6rem]">
+         
+                <div className="bg-siena flex justify-center items-center mx-auto w-[360px] pl-[6rem]">
                     <img src={calendario} alt="" />
                     <p className='text-left mx-auto items-center w-[40rem] py-[4rem]  text-[2rem] font-mont text-creme-claro uppercase'>Nós oferecemos um acompanhamento 
                     <span className='font-extrabold'> 7 dias por semana,</span> após a realização do procedimento
