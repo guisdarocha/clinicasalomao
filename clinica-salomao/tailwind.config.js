@@ -34,6 +34,7 @@ module.exports = withMT({
     borderRadius: {
       '46': '80px',
       '6xl': '48px',
+      '2xl': '24px',
     },
 
     boxShadow: {
