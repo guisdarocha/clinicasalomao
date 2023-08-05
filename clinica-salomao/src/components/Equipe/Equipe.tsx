@@ -9,10 +9,10 @@ const Equipe = () => {
     <>
     <div className="bg-creme flex justify-center items-center mx-auto">
 
-        <div className="grid grid-cols-3 justify-center items-center max-w-[1080px] pt-[7rem]">
+        <div className="grid grid-cols-2 justify-center items-center max-w-[360px] pt-[4rem]">
             
-            <div className="justify-center items-center mx-auto col-span-3 w-[51rem] pb-[5rem]">
-                <h3 className='text-[2.25rem] font-mont text-center text-vermelho-madeira leading-tight'>
+            <div className="justify-center items-center mx-auto col-span-3 w-[15.5rem] pb-[8rem]">
+                <h3 className='text-[0.87rem] font-mont text-center text-vermelho-madeira'>
                 Nossa Equipe é formada por profissionais Especialistas em Harmonização Facial com cursos
                 de especialização com mais de
                 <span className='font-mont font-extrabold'> 15.000 clientes e 45.000 protocolos realizados.</span>
@@ -21,27 +21,15 @@ const Equipe = () => {
             
             
 
-            <div className='justify-center items-center mx-auto mb-[9rem]'>
-                    <img src={vanessa} alt="" className='hover:h-[230px] w-auto '/>
+            <div className='flex mx-auto -mt-[50rem]'>
+                    <img src={vanessa} alt="" className='w-[15rem] '/>
+                    <div className=''></div>
                         <h5 className='text-[1rem] w-[10rem] justify-center items-center mx-auto mt-[1rem] font-mont text-center text-vermelho-madeira '>Dra. Vanessa Pouza Biomédica Esteta CRBM: 22183</h5>
             </div>
 
 
-            <div className='justify-center items-center mx-auto mb-[9rem]' >
-                    <img src={matheus} alt="" className='hover:h-[240px] w-auto'/>
-                        <h5 className='text-[1rem] w-[10rem] justify-center items-center mx-auto mt-[1rem] font-mont text-center text-vermelho-madeira '>Dr. Matheus Lobato Biomédico Esteta CRBM: 30182</h5>
-
-            </div>
-
-            <div className='justify-center items-center mx-auto mb-[9rem]'>
-                    <img src={beatriz} alt="" className='w-auto hover:h-[240px]  '/>
-                        <h5 className='text-[1rem] w-[10rem] justify-center items-center mx-auto mt-[1rem] font-mont text-center text-vermelho-madeira '>Dra. Beatriz Aguirre Biomédica Esteta CRBM: 49802</h5>
-
-            </div>
-
-
             
-                <div className="bg-siena flex justify-center items-center mx-auto w-[1080px] pl-[6rem]">
+                <div className="bg-siena flex justify-center items-center mx-auto w-[360px] mt-[50rem] pl-[6rem]">
                     <img src={calendario} alt="" />
                     <p className='text-left mx-auto items-center w-[40rem] py-[4rem]  text-[2rem] font-mont text-creme-claro uppercase'>Nós oferecemos um acompanhamento 
                     <span className='font-extrabold'> 7 dias por semana,</span> após a realização do procedimento
