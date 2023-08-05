@@ -5,9 +5,9 @@ import botao from '../../assets/botao.png'
 const Mapa = () => {
     return (
     <>
-    <div className='aling-center bg-creme h-[300px] pt-[6rem]'>
-        <div className='grid grid-cols-2'>
-            <img src={brasil} alt="" className='w-[8rem] h-auto pt-  pl-[1.4rem]' />
+    <div className=' bg-creme h-[300px] pt-[6rem]'>
+        <div className='grid grid-cols-2 '>
+            <img src={brasil} alt="" className='w-[8rem] h-auto pt-6  pl-[1.4rem]' />
             <div className="-ml-[3rem] w-[11.1rem]">
                 <h3 className='text-[1rem] text-vermelho-madeira font-belleza leading-tight uppercase'>Você sabia que o Brasil é referência MUNDIAL em Estética?</h3>
                 <h4 className='text-[0.8rem] pt-5 text-vermelho-madeira font-mont leading-tight'>Isso mesmo, é daqui que saem os protocolos com os melhores profissionais e produtos.</h4>
