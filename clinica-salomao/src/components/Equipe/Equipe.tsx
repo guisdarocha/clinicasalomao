@@ -2,6 +2,7 @@ import vanessa from '../../assets/vanessa.png'
 import matheus from '../../assets/matheus.png'
 import beatriz from '../../assets/beatriz.png'
 import whats from '../../assets/whats.svg'
+import botao from '../../assets/botao.png'
 import calendario from '../../assets/calendario.svg'
 
 const Equipe = () => {
@@ -9,7 +10,7 @@ const Equipe = () => {
     <>
     <div className="bg-creme flex justify-center items-center mx-auto">
 
-        <div className="grid grid-cols-2 justify-center items-center max-w-[360px] pt-[4rem]">
+        <div className="grid grid-cols-2 justify-center items-center max-w-[360px] py-[6rem]">
             
             <div className="justify-center items-center mx-auto col-span-3 w-[15.5rem] pb-[8rem]">
                 <h3 className='text-[0.87rem] font-mont text-center text-vermelho-madeira'>
@@ -65,8 +66,19 @@ const Equipe = () => {
                     <li className='pt-[1rem]'>Avaliação e procedimento no mesmo dia.</li>
                 </ul>
 
-            </div>
 
+                <div className='flex justify-center items-center pt-[2rem] mr-8'>
+                    <a href='https://wa.me/5511997173432?text=Gostaria de saber mais sobre a Estética Salomão'>
+                        <button className='flex justify-center items-center mx-auto cursor-pointer drop-shadow-lg '>
+                            <img src={botao} alt="" className='relative w-[20rem] hover:w-[22rem] hover:shadow-dentro hover:shadow-creme hover:transition-all hover:ease-out hover:duration-700'/>
+                            <span className='absolute pr-[1rem] text-[0.8rem] font-mont font-extrabold drop-shadow-lg leading-tight text-branco uppercase'>Quero tratar minha flacidez</span>
+                            <img src={whats} alt="" className='absolute right-6 w-[1.5rem] h-auto self-center -mr-3'/>
+                        </button>
+                    </a>  
+                </div>
+            </div>
+        
+     
 
         </div>
 
