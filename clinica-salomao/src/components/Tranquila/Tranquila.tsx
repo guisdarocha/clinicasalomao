@@ -1,3 +1,5 @@
+import whats from '../../assets/whats.svg'
+import botao from '../../assets/botao.png'
 
 const Tranquila = () => {
     return (
@@ -27,7 +29,16 @@ const Tranquila = () => {
             
 
         </div>
-
+        
+        <div className='flex justify-center items-center pt-[2rem] '>
+         <a href='https://wa.me/5511997173432?text=Gostaria de saber mais sobre a Estética Salomão'>
+            <button className='flex justify-center items-center mx-auto cursor-pointer drop-shadow-lg '>
+                <img src={botao} alt="" className='relative w-[21rem] hover:w-[22rem] hover:shadow-dentro hover:shadow-creme hover:transition-all hover:ease-out hover:duration-700'/>
+                <span className='absolute pr-[1rem] text-[0.8rem] text-center w-[22rem] font-mont font-extrabold drop-shadow-lg leading-tight text-branco uppercase'>Quero uma avaliação gratuita</span>
+                <img src={whats} alt="" className='absolute right-6 w-[1.5rem] h-auto  self-center '/>
+            </button>
+          </a>  
+         </div>
     </div>
     </>
     )

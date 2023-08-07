@@ -31,18 +31,19 @@ const Oito = () => {
         <div className="flex justify-center items-center w-[9.25rem] h-[6.5rem] rounded-tl-2xl rounded-br-2xl bg-creme">
             <h4 className='text-[0.875rem] w-[28rem] font-mont  leading-tight text-center  text-vermelho-madeira px-1  py-1'>Quantos anos você quer rejuvenescer sem precisar de uma cirurgia, já pensou nisso ?</h4>
         </div>
+ 
     </div>
     <div className='flex justify-center items-center pt-[2rem] '>
          <a href='https://wa.me/5511997173432?text=Gostaria de saber mais sobre a Estética Salomão'>
             <button className='flex justify-center items-center mx-auto cursor-pointer drop-shadow-lg '>
                 <img src={botao} alt="" className='relative w-[21rem] hover:w-[22rem] hover:shadow-dentro hover:shadow-creme hover:transition-all hover:ease-out hover:duration-700'/>
-                <span className='absolute pr-[1rem] text-[0.8rem] text-left w-[16rem] font-mont font-extrabold drop-shadow-lg leading-tight text-branco uppercase'>Não sofra com nada disso.
-Não perca mais tempo</span>
+                <span className='absolute pr-[1rem] text-[0.8rem] text-center w-[22rem] font-mont font-extrabold drop-shadow-lg leading-tight text-branco uppercase'>Quero uma avaliação gratuita</span>
                 <img src={whats} alt="" className='absolute right-6 w-[1.5rem] h-auto  self-center '/>
             </button>
           </a>  
          </div>
     </div>
+
     </>
     )
 }

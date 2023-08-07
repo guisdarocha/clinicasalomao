@@ -20,22 +20,12 @@ const Equipe = () => {
             </div>
             
             
-            <div className='grid col-span-2 -mt-[83rem] mx-9'>
+            <div className='grid col-span-2 mx-9'>
                 <div className='flex border-2 border-siena rounded-br-2xl justify-center items-center mx-auto my-[1rem]'>
                         <img src={vanessa} alt="" className='w-[6rem] -ml-[2rem] -my-[1rem]'/>
                             <h5 className='text-[0.8rem] w-[17rem]  mx-[2rem] justify-center items-center font-mont text-center text-vermelho-madeira '>Dra. Vanessa Pouza Biomédica Esteta CRBM: 22183</h5>
                 </div>
 
-                <div className='flex border-2 border-siena rounded-br-2xl justify-center items-center mx-auto my-[1rem]'>
-                        <img src={matheus} alt="" className='w-[6rem] -ml-[2rem] -my-[1rem]'/>
-                            <h5 className='text-[0.8rem] w-[17rem]  mx-[2rem] justify-center items-center font-mont text-center text-vermelho-madeira '>Dr. Matheus Lobato Biomédico Esteta CRBM: 30182</h5>
-                </div>
-
-
-                <div className='flex border-2 border-siena rounded-br-2xl justify-center items-center mx-auto my-[1rem]'>
-                        <img src={beatriz} alt="" className='w-[6rem] -ml-[2rem] -my-[1rem]'/>
-                            <h5 className='text-[0.8rem] w-[17rem]  mx-[2rem] justify-center items-center font-mont text-center text-vermelho-madeira '>Dra. Beatriz Aguirre Biomédica Esteta CRBM: 49802</h5>
-                </div>
 
 
             </div>
