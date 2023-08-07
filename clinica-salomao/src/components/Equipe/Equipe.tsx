@@ -56,7 +56,7 @@ const Equipe = () => {
 
             <div className="justify-center items-center mx-auto col-span-3 pt-[3rem]">
 
-                <ul className='list-disc text-[2rem] px-[3rem] w-[55rem] text-left font-mont text-vermelho-madeira'>
+                <ul className='list-disc text-[0.875rem] px-[3rem] w-[25rem] text-left font-mont text-vermelho-madeira'>
                     <li >Protocolos seguros e Inovadores sempre pensando em você;</li>
                     <li className='pt-[1rem]'>Produtos com ANVISA , onde você terá acesso a rastreabilidade junto ao fornecedor;</li>
                     <li className='pt-[1rem]'>Produtos abertos na sua frente antes de qualquer procedimento. Transparência sempre;</li>
@@ -67,14 +67,7 @@ const Equipe = () => {
 
             </div>
 
-            <div className='col-span-3 flex justify-center pt-[4rem] pb-[8rem]'>
-            <a href='https://wa.me/5511997173432?text=Gostaria de saber mais sobre a Estética Salomão'>
-                    <button className='flex justify-center items-center mx-auto bg-gradient-to-r from-whats-escuro via-whats to-whats-escuro border-4 border-branco drop-shadow-lg cursor-pointer px-[4rem] py-[2rem] rounded-[8rem] hover:shadow-dentro hover:shadow-creme hover:transition-all hover:ease-out hover:duration-700'>
-                        <span className='text-[2.1rem] font-mont font-extrabold w-[48rem] text-center drop-shadow-lg text-branco leading-tight uppercase hover:text-[2.2rem] hover:w-[51rem] hover:transition-all hover:ease-out hover:duration-700'>Quero fazer uma avaliação gratuita</span>
-                        <img src={whats} alt="" className='pl-[1rem] self-center '/>
-                    </button>
-            </a>        
-            </div>
+
         </div>
 
     </div>
