@@ -20,27 +20,38 @@ const Equipe = () => {
             </div>
             
             
-            <div className='grid col-span-2 mx-9'>
-                <div className='flex border-2 border-siena rounded-br-2xl justify-center items-center mx-auto my-[1rem]'>
+            <div className='grid col-span-2 mx-12 -mt-10'>
+                <div className='flex border-2 border-siena rounded-br-2xl justify-center items-center mx-auto '>
                         <img src={vanessa} alt="" className='w-[6rem] -ml-[2rem] -my-[1rem]'/>
-                            <h5 className='text-[0.8rem] w-[17rem]  mx-[2rem] justify-center items-center font-mont text-center text-vermelho-madeira '>Dra. Vanessa Pouza Biomédica Esteta CRBM: 22183</h5>
+                            <h5 className='text-[0.8rem] w-[17rem]  mx-[1rem] justify-center items-center font-mont text-center text-vermelho-madeira '>Dra. Vanessa Pouza Biomédica Esteta CRBM: 22183</h5>
                 </div>
+            </div>
 
+            <div className='grid col-span-2 mx-12 mt-10'>
+                <div className='flex border-2 border-siena rounded-br-2xl justify-center items-center mx-auto '>
+                        <img src={matheus} alt="" className='w-[6rem] -ml-[2rem] -my-[1rem]'/>
+                            <h5 className='text-[0.8rem] w-[17rem]  mx-[1rem] justify-center items-center font-mont text-center text-vermelho-madeira '>Dr. Matheus Lobato Biomédico Esteta CRBM: 30182</h5>
+                </div>
+            </div>
 
-
+            <div className='grid col-span-2 mx-12 -mt-[25rem]'>
+                <div className='flex border-2 border-siena rounded-br-2xl justify-center items-center mx-auto '>
+                        <img src={beatriz} alt="" className='w-[6rem] -ml-[2rem] -my-[1rem]'/>
+                            <h5 className='text-[0.8rem] w-[17rem]  mx-[1rem] justify-center items-center font-mont text-center text-vermelho-madeira '>Dra. Beatriz Aguirre Biomédica Esteta CRBM: 49802</h5>
+                </div>
             </div>
          
-                <div className="bg-siena flex justify-center items-center mx-auto w-[360px] pl-[6rem]">
-                    <img src={calendario} alt="" />
-                    <p className='text-left mx-auto items-center w-[40rem] py-[4rem]  text-[2rem] font-mont text-creme-claro uppercase'>Nós oferecemos um acompanhamento 
+                <div className="bg-siena flex justify-center items-center mx-auto w-[360px] px-[2rem] mt-[15rem]">
+                    <img src={calendario} alt="" className=' w-[3.3rem] h-[3.5rem]' />
+                    <p className='text-left mx-auto items-center py-[4rem] pl-[1.5rem]  text-[1rem] font-mont text-creme-claro uppercase'>Nós oferecemos um acompanhamento 
                     <span className='font-extrabold'> 7 dias por semana,</span> após a realização do procedimento
                     <span className='font-extrabold'> através de um Whatsapp especialmente para você.</span>
                     </p>
                 </div>
            
-                <div className=' bg-gradient-to-b from-vermelho-madeira to-vermelho-escuro -mt-[50rem] col-span-3 mx-auto  rounded-46 w-[25rem]'> 
+                <div className=' bg-gradient-to-b from-vermelho-madeira to-vermelho-escuro -mt-[40rem] col-span-3 mx-auto  rounded-46 w-[11rem]'> 
                    
-                   <p className='text-center text-[2.8rem] text-creme-claro font-mont font-extrabold uppercase'>Para você</p>
+                   <p className='text-center text-[1.1rem] text-creme-claro font-mont font-extrabold uppercase'>Para você</p>
                  </div>
 
             <div className="justify-center items-center mx-auto col-span-3 pt-[3rem]">

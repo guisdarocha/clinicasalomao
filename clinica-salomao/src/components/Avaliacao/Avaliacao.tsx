@@ -28,8 +28,8 @@ const Avaliacao = () => {
                             <a href='https://wa.me/5511997173432?text=Gostaria de saber mais sobre a Estética Salomão'>
                                 <button className='flex justify-center items-center mx-auto cursor-pointer drop-shadow-lg '>
                                     <img src={botao} alt="" className='relative w-[21rem] hover:w-[22rem] hover:shadow-dentro hover:shadow-creme hover:transition-all hover:ease-out hover:duration-700'/>
-                                    <span className='absolute pr-[1rem] text-[0.8rem] text-left w-[13rem] font-mont font-extrabold drop-shadow-lg leading-tight text-branco uppercase'>Quero iniciar agora meu tratamento</span>
-                                    <img src={whats} alt="" className='absolute right-10 w-[1.5rem] h-auto  self-center '/>
+                                    <span className='absolute pr-[1rem] text-[0.8rem] text-left w-[13rem] font-mont font-extrabold drop-shadow-lg leading-tight text-branco uppercase'>não perca mais tempo</span>
+                                    <img src={whats} alt="" className='absolute right-10 w-[1.5rem] h-auto  self-center mr-4'/>
                                 </button>
                             </a>  
                         </div>
