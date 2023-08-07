@@ -25,9 +25,8 @@ const Metodo = () => {
                 <a href='https://wa.me/5511997173432?text=Gostaria de saber mais sobre a Estética Salomão'>
                     <button className='flex justify-center items-center mx-auto cursor-pointer drop-shadow-lg '>
                         <img src={botao} alt="" className='relative w-[21rem] hover:w-[22rem] hover:shadow-dentro hover:shadow-creme hover:transition-all hover:ease-out hover:duration-700'/>
-                        <span className='absolute pr-[1rem] w-[14rem] text-left text-[0.8rem] font-mont font-extrabold drop-shadow-lg leading-tight text-branco uppercase'>Quero fazer uma
-avaliação gratuita </span>
-                        <img src={whats} alt="" className='absolute right-10 w-[1.5rem] h-auto  self-center '/>
+                        <span className='absolute pr-[3rem] w-[19rem] text-center text-[0.8rem] font-mont font-extrabold drop-shadow-lg leading-tight text-branco uppercase'>Quero uma avaliação gratuita</span>
+                        <img src={whats} alt="" className='absolute right-10 w-[1.5rem] h-auto  self-center -mr-2'/>
                     </button>
                 </a>  
             </div>

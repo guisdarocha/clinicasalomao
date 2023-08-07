@@ -4,7 +4,7 @@ import botao from '../../assets/botao.png'
 const Tranquila = () => {
     return (
     <>
-    <div className=" bg-laranja flex justify-center items-center h-[600px] rounded-br-2xl">
+    <div className=" bg-laranja flex justify-center items-center h-[700px] rounded-br-2xl">
 
         <div className="grid grid-cols-1 mt-4 max-w-[360px]">
             <h3 className='text-[1.5rem] text-center text-creme font-belleza leading-tight justify-center items-center mx-auto uppercase'>Pode ficar tranquila, estética não tem idade.</h3>
@@ -28,18 +28,22 @@ const Tranquila = () => {
             <h3 className='text-[1.5rem]  mt-[2rem] text-center text-creme font-belleza leading-tight justify-center items-center mx-auto uppercase'>Só depende de você</h3>
             
 
-        </div>
-        
-        <div className='flex justify-center items-center pt-[2rem] '>
+            <div className='flex justify-center items-center pt-[2rem]'>
          <a href='https://wa.me/5511997173432?text=Gostaria de saber mais sobre a Estética Salomão'>
             <button className='flex justify-center items-center mx-auto cursor-pointer drop-shadow-lg '>
                 <img src={botao} alt="" className='relative w-[21rem] hover:w-[22rem] hover:shadow-dentro hover:shadow-creme hover:transition-all hover:ease-out hover:duration-700'/>
-                <span className='absolute pr-[1rem] text-[0.8rem] text-center w-[22rem] font-mont font-extrabold drop-shadow-lg leading-tight text-branco uppercase'>Quero uma avaliação gratuita</span>
+                <span className='absolute pr-[1rem] text-[0.8rem] text-center w-[22rem] font-mont font-extrabold drop-shadow-lg leading-tight text-branco uppercase'>não sofra com nada disso</span>
                 <img src={whats} alt="" className='absolute right-6 w-[1.5rem] h-auto  self-center '/>
             </button>
           </a>  
          </div>
+
+        </div>
+   
+        
     </div>
+   
+
     </>
     )
 }
