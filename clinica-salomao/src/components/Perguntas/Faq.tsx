@@ -18,8 +18,7 @@ const Faq = () => {
     
     return (
         <div>
-            <h1>faq</h1>
-            <Acordeao sections={perguntasRespostas} section={undefined} index={undefined}/>
+            <Acordeao sections={perguntasRespostas} section={undefined} index={undefined} sectionIndex={undefined}/>
         </div>
     )
   };
