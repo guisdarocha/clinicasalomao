@@ -10,7 +10,7 @@ const Equipe = () => {
     <>
     <div className="bg-creme flex justify-center items-center mx-auto">
 
-        <div className="grid grid-cols-2 justify-center items-center max-w-[360px] py-[6rem]">
+        <div className="grid grid-cols-2 justify-center items-center max-w-[360px] pt-[6rem] pb-[10rem]">
             
             <div className="justify-center items-center mx-auto col-span-3 w-[15.5rem] pb-[8rem]">
                 <h3 className='text-[0.87rem] font-mont text-center text-vermelho-madeira'>
