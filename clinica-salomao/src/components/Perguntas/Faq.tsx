@@ -1,4 +1,4 @@
-import {Acordeao} from ''
+import Acordeao from "./Acordeao";
 
 const perguntasRespostas = [
     {
@@ -19,7 +19,7 @@ const Faq = () => {
     return (
         <div>
             <h1>faq</h1>
-            <Acordeao sections={perguntasRespostas}/>
+            <Acordeao sections={perguntasRespostas} section={undefined} index={undefined}/>
         </div>
     )
   };
