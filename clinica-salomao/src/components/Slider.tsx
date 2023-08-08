@@ -6,7 +6,7 @@ export function Celular() {
   return (
     <Carousel
     
-      className="absolute left-[12.3rem] mt-[13rem] rounded-xl"
+      className="!absolute left-[12.3rem] mt-[13rem] rounded-xl"
       navigation={({ setActiveIndex, activeIndex, length }) => (
         <div className="hidden">
           {new Array(length).fill("").map((_, i) => (
@@ -26,7 +26,7 @@ export function Celular() {
           color="white"
           size="lg"
           onClick={handleNext}
-          className="!absolute bg-vermelho-madeira px-[3rem] right-[18rem]"
+          className="!absolute left bg-vermelho-madeira px-[3rem] right-[13rem]"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"

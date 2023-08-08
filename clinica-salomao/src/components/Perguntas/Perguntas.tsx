@@ -33,18 +33,18 @@ import whats from '../../assets/whats.svg'
   
   return (
     <Fragment>
-        <div className="bg-creme-claro pt-[5rem]">
-            <div className="max-w-[700px] flex justify-start mx-auto pb-[2rem]">
-              <h3 className="text-[3.5rem] text-vermelho-madeira font-belleza leading-none uppercase max-w-[21rem]">Perguntas frequentes</h3>
+        <div className="bg-creme-claro px-[2rem] pt-[5rem]">
+            <div className="w-[5rem] flex justify-start pb-[2rem]">
+              <h3 className="text-[1.5rem] text-vermelho-madeira font-belleza leading-none uppercase">Perguntas frequentes</h3>
             </div>
-
+      
         <div className="max-w-[700px]  bg-creme-claro grid-cols-2 justify-center mx-auto items-center">
 
-            <Accordion className="bg-vermelho-madeira" open={open === 1} icon={<Icon id={1} open={open}  />}>
-              <AccordionHeader className="text-[2rem] pl-[2rem] text-creme-claro font-extrabold font-mont hover:text-creme-claro" onClick={() => handleOpen(1)}>
+            <Accordion className="bg-vermelho-madeira rounded-46" open={open === 1} icon={<Icon id={1} open={open}  />}>
+              <AccordionHeader className="text-[0.87rem] pl-[2rem] text-creme-claro font-extrabold font-mont hover:text-creme-claro " onClick={() => handleOpen(1)}>
                 Preciso fazer uma avaliação?
               </AccordionHeader>
-              <AccordionBody className="bg-creme text-[1.5rem] py-[2rem] px-[2rem] text-vermelho-madeira font-mont font-semibold leading-tight">
+              <AccordionBody className="bg-creme text-[0.87rem] py-[2rem] px-[2rem] text-vermelho-madeira font-mont font-semibold leading-tight rounded-46">
                 Sim, pois cada cliente tem uma indicação e anatomia distinta. Os tratamentos variam
                 de acordo com o que vc deseja de resultado e indicação do profissional.
               </AccordionBody>

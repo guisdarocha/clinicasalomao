@@ -10,6 +10,7 @@ import Equipe from './components/Equipe/Equipe'
 import Depoimento from './components/Depoimento.tsx/Depoimento'
 import Perguntas from './components/Perguntas/Perguntas'
 import Footer from './components/Footer/Footer'
+import Faq from './components/Perguntas/Faq'
 
 
 
@@ -27,6 +28,7 @@ function App() {
     <Avaliacao />
     <Equipe />
     <Depoimento />
+    <Faq />
     <Perguntas />
     <Footer />
    </>

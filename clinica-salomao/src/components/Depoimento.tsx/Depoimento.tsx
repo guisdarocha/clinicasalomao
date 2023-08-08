@@ -1,5 +1,6 @@
-import { Celular } from '../Slider'
+
 import celular from '../../assets/mockupCelular.png'
+import CelularUm from '../CelularUm'
 
 
 const Depoimento = () => {
@@ -15,9 +16,10 @@ const Depoimento = () => {
             </div>      
             <img src={celular} alt="" className='w-[145px] ml-[0.5rem]' />
         </div>
-    <Celular />
+        <CelularUm />
+        
     </div>
-   
+    
     </>
     )
 }
