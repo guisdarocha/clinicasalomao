@@ -19,7 +19,7 @@ const CelularUm = () => {
     <Swiper 
     navigation={false} 
     modules={[Navigation]} 
-    className="mySwiper absolute right-[2rem] top-[470.4rem] w-[133px] h-[270px] rounded-xl "
+    className="mySwiper absolute right-[2rem] top-[471.9rem] w-[133px] h-[270px] rounded-xl sm:right-[10.8rem] sm:top-[472rem]"
     allowSlidePrev={true}>
       <SwiperSlide><img src={um} alt="" /></SwiperSlide>
       <SwiperSlide><img src={dois} alt="" /></SwiperSlide>
