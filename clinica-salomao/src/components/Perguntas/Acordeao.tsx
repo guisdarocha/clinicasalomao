@@ -26,12 +26,12 @@ const AcordeaoSection = ({section, isActiveSection, sectionIndex, setActiveIndex
         setActiveIndex(nextIndex);
     }
     return (
-        <div>
-            <div onClick={toggleSection} className='flex'>
-                <div>{section.title}</div>
-                <div>{isActiveSection ? <img src={setaUp} alt="-" /> : <img src={setaDown} alt="+" />}</div>
+        <div className='mt-[3rem] pt-[1.5rem]'>
+            <div onClick={toggleSection} className='flex bg-gradient-to-b from-perguntaA to-perguntaB px-[1rem] py-[0.5rem] rounded-46 drop-shadow-md  '>
+                <div className='flex ml-2 justify-start items-center font-mont font-bold text-white text-[0.8rem] w-[13rem] leading-tight'>{section.title}</div>
+                <div className='flex items-center ml-6 max-w-[1.5rem] '>{isActiveSection ? <img src={setaUp} alt="-"  /> : <img src={setaDown} alt="+" />}</div>
             </div>
-            {isActiveSection && <div>{section.text}</div>}
+            {isActiveSection && <div className='bg-creme flex mx-auto px-[1rem] py-[1rem] drop-shadow-xl font-mont font-medium rounded-xl text-vermelho-madeira leading-tight text-[0.8rem] transition-all ease-out duration-700'>{section.text}</div>}
         </div>
     );
 };
@@ -40,7 +40,7 @@ const AcordeaoSection = ({section, isActiveSection, sectionIndex, setActiveIndex
 const Acordeao = ({ sections } : AcordeaoProps) => {
     const [activeIndex, setActiveIndex] = useState(0);
 return (
-    <div className="bg-creme w-[360px] px-[2rem]">
+    <div className="bg-creme-claro w-[360px] px-[2rem]">
         {sections.map((section: any, index: Key | null | undefined) => (
         <AcordeaoSection section={section} key={index} 
         isActiveSection={index === activeIndex} 
