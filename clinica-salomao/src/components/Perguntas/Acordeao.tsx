@@ -34,7 +34,7 @@ const AcordeaoSection = ({section, isActiveSection, sectionIndex, setActiveIndex
                 <div className='flex ml-2 justify-start items-center font-mont font-bold text-white text-[0.8rem] w-[13rem] leading-tight'>{section.title}</div>
                 <div className=' flex items-center ml-6 max-w-[1.5rem] transition-all ease-out duration-700 '>{isActiveSection ? <img src={setaUp} alt="-"  /> : <img src={setaDown} alt="+" />}</div>
             </div>
-            {isActiveSection && <div className='mt-[0.1rem] bg-creme flex mx-auto px-[1rem] py-[1rem] drop-shadow-xl font-mont font-medium rounded-xl shadow-inner text-vermelho-madeira leading-tight text-[0.8rem] '>{section.text}</div>}
+            {isActiveSection && <div className='mt-[0.1rem] bg-creme flex mx-auto px-[1rem] py-[1rem] drop-shadow-xl font-mont font-medium rounded-xl shadow-inner text-vermelho-madeira leading-tight text-[0.8rem]'>{section.text}</div>}
         </div>
     );
 };
