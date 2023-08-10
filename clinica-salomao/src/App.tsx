@@ -17,6 +17,9 @@ function App() {
 
   return (
    <>
+   <div className='overflow-x-hidden'>
+
+   
     <Header /> 
     <Mapa />
     <Oito />
@@ -29,6 +32,7 @@ function App() {
     <Depoimento />
     <Perguntas />
     <Footer />
+    </div>
    </>
   )
 }
