@@ -14,5 +14,5 @@ jobs:
         host: ${{ secrets.HOST }}
         user: ${{ secrets.USER }}
         password: ${{ secrets.PASS }}
-        localDir: "/clinica-salomao"
+        localDir: "./clinicasalomao"
         remoteDir: "\\windows-pd-0001.fs.locaweb.com.br\WNFS-0002\clinicaesteticas1\web"
