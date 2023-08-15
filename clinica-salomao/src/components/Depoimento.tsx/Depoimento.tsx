@@ -7,7 +7,7 @@ const Depoimento = () => {
     
     return (
     <>
-    <div className="bg-laranja h-[15rem] flex justify-center items-center mx-auto -mt-[4rem] rounded-tl-46 rounded-br-46">
+    <div className="bg-laranja h-[15rem] flex justify-center items-center mx-auto -mt-[4rem] rounded-tl-6xl rounded-br-6xl">
 
         <div className="grid grid-cols-2 max-w-[360px] py-[rem] ">
             <div className=" font-belleza text-creme ml-[2rem] w-[11rem] mt-[4rem] pr-6">
