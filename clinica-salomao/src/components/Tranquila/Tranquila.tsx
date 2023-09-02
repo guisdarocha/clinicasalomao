@@ -4,10 +4,10 @@ import botao from '../../assets/botaowhats.svg'
 const Tranquila = () => {
     return (
     <>
-    <div className=" bg-laranja flex justify-center items-center h-[700px] rounded-br-2xl xl:h-[80rem]">
+    <div className=" bg-laranja flex justify-center items-center h-[700px] rounded-br-2xl xl:h-[85rem]">
 
         <div className="grid grid-cols-1 mt-4 max-w-[360px] xl:max-w-[65rem]">
-            <h3 className='text-[1.5rem] text-center text-creme font-belleza leading-tight justify-center items-center mx-auto uppercase xl:text-[3.9rem] xl:w-[60rem] xl:mt-[-5rem] '>Pode ficar tranquila, estética não tem idade.</h3>
+            <h3 className='text-[1.5rem] text-center text-creme font-belleza leading-tight justify-center items-center mx-auto uppercase xl:text-[3.9rem] xl:w-[60rem] xl:mt-[5rem] '>Pode ficar tranquila, estética não tem idade.</h3>
             <h4 className='text-[1rem] pt-[1rem] text-creme w-[17.1rem] text-center font-mont font-semibold justify-center leading-tight items-center mx-auto xl:text-[2.6rem] xl:w-[65rem] '>Vamos lá, faça seu procedimento mesmo que...</h4>
             
             <div className='justify-center items-center mx-auto pt-[2rem] px-1 '>

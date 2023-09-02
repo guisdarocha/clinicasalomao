@@ -6,7 +6,7 @@ const Header = () => {
     return (
     <>
     <div className='bg-gradient-to-t from-creme-escuro to-creme pb-[5rem]'>
-        <div className='w-full h-[500px] xl:h-[700px]'>
+        <div className='w-full h-[500px] xl:h-[700px] xl:w-[1280px] xl:mx-auto'>
 
             <div className="flex justify-center items-center mx-auto pt-6 bg-creme-claro h-[3rem] xl:h-[6rem]">
                 <img src={logo} alt="" className='mx-auto max-w-[6rem] my-[0.3rem] h-auto xl:max-w-[12rem] xl:mt-[1rem] '/>

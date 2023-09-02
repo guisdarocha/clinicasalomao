@@ -7,7 +7,7 @@ const Metodo = () => {
     <>
     <div className="bg-gradient-to-b from-creme-claro to-creme flex justify-center items-center mx-auto">
         
-        <div className='grid grid-cols-2  justify-center items-center max-w-[360px] pt-[2rem]'>
+        <div className='grid grid-cols-2  justify-center items-center max-w-[360px] pt-[2rem] xl:max-w-[1280px]'>
             <h3 className='text-[1.5rem] w-[16rem] pl-5 font-belleza text-vermelho-madeira text-left uppercase leading-tight'>Qual o método utilizado ?</h3>
             <ul className='col-start-1 list-disc pl-8 text-[0.87rem] font-mont text-vermelho-madeira'>
                 <li className='py-[2rem]'>Muito simples, sem cirurgia e sem necessidade de repouso.</li>
