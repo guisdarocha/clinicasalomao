@@ -27,7 +27,7 @@ const Avaliacao = () => {
                         <div className='flex justify-center items-center pt-[2rem] xl:mx-auto xl:mb-[-3rem] '>
                             <a href='https://wa.me/5511997173432?text=Gostaria de saber mais sobre a Estética Salomão'>
                                 <button className='flex justify-center items-center mx-auto cursor-pointer drop-shadow-lg '>
-                                    <img src={botao} alt="" className='relative w-[21rem]  xl:w-[70rem] hover:w-[22rem] hover:shadow-dentro hover:shadow-creme hover:transition-all hover:ease-out hover:duration-700 xl:hover:w-[72rem] xl:hover:shadow-dentro xl:hover:shadow-creme xl:hover:transition-all xl:hover:ease-out xl:hover:duration-700'/>
+                                    <img src={botao} alt="" className='relative w-[21rem]  xl:w-[70rem] hover:w-[22rem] hover:transition-all hover:ease-out hover:duration-700 xl:hover:w-[72rem]  xl:hover:transition-all xl:hover:ease-out xl:hover:duration-700'/>
                                     <span className='absolute pr-[1rem] text-[0.8rem] font-mont font-extrabold drop-shadow-lg leading-tight text-branco uppercase xl:text-[2.5rem] xl:pr-[5rem]'>Quero iniciar agora meu tratamento</span>
                                     <img src={whats} alt="" className='absolute right-6 w-[1.5rem] h-auto  self-center xl:w-[5rem] '/>
                                 </button>
