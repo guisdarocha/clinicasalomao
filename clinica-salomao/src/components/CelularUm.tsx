@@ -19,7 +19,7 @@ const CelularUm = () => {
     <Swiper 
     navigation={false} 
     modules={[Navigation]} 
-    className="mySwiper absolute right-[2rem] top-[478.1rem] w-[133px] h-[270px] rounded-xl sm:right-[10.8rem] sm:top-[478.1rem]  md:right-[15.5rem] md:top-[478.1rem] lg:right-[22.8rem] lg:top-[472rem] xl:right-[19.4rem] xl:top-[1020.2rem] xl:w-[19rem] xl:h-[38rem]"
+    className=" w-[140px] h-[270px] rounded-xl xl:w-[303px] xl:h-[500px] xl:mt-2 xl:mr-4"
     allowSlidePrev={true}>
       <SwiperSlide><img src={um} alt="" /></SwiperSlide>
       <SwiperSlide><img src={dois} alt="" /></SwiperSlide>
@@ -31,8 +31,10 @@ const CelularUm = () => {
       <SwiperSlide><img src={oito} alt="" /></SwiperSlide>
       <SwiperSlide><img src={nove} alt="" /></SwiperSlide>
     </Swiper>
+    
   </>
   );
+  
 };
 
 export default CelularUm
